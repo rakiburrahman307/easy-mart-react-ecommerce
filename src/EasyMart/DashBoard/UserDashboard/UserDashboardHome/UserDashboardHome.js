@@ -41,8 +41,8 @@ const UserDashboardHome = () => {
                     dashboardData?.map((data, i) =>  <div key={i} className="user-dashboard-home-content">
                         <img src="https://cdn.dribbble.com/users/2046015/screenshots/5973727/06-loader_telega.gif" alt="" />
                         <div className="content">
-                            <h4>{data.title}</h4>
-                            <h5>{data.order || 0}</h5>
+                            <h4>{data?.title}</h4>
+                            <h5>{data?.order || 0}</h5>
                         </div>
                     </div>)
                 }
