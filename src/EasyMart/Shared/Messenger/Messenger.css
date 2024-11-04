@@ -1,0 +1,30 @@
+.easy-mart-messenger button{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    outline: none;
+    border: 2px solid #fff;
+    color: #fff;
+    /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%); */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    z-index: 999;
+}
+.easy-mart-messenger button:hover{
+    background-color: #000;
+    transition: 1s;
+}
+@media only screen and (min-width: 420px) and (max-width:992px) {
+    .easy-mart-messenger button{
+        bottom: 67px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+    .easy-mart-messenger button{
+        bottom: 67px;
+        left:20px;
+    }
+}

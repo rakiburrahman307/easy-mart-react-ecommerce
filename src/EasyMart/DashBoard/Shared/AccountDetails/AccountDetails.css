@@ -1,0 +1,55 @@
+.tmp-account-inner{
+    width: 100%;
+    padding: 21px;
+    background-color: #fff;
+    /* box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%); */
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+.tmp-account-inner h2{
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.tmp-account-inner input{
+    width: 100%;
+    margin-top: 22.5px;
+    padding: 10px;
+    outline: none;
+    color: #333;
+    background-color: #eaeaea;
+    /* border: 1px solid var(--color3); */
+}
+.tmp-account-inner input[type=submit]{
+    display: inline-block;
+    /* background: #ab7a5f; */
+    color: #fff;
+    /* border: 2px solid #ab7a5f; */
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.create-vendors {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.create-vendors:hover {
+   color: #000 !important;
+   transition: 1s;
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .dashboard-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboard-btn{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,13 @@
+.tmp10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100vh;
+    background-color:#F2F3F9 !important;
+  }
+.tmp10 .container{
+    max-width: 1400px !important;
+}
+a{
+  text-decoration: none !important;
+}

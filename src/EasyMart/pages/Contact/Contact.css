@@ -1,0 +1,40 @@
+.easy-mart-confirm-message input, .easy-mart-confirm-message textarea{
+    /* border: 1px solid #009688; */
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* color: #009688; */
+    padding:8px 10px;
+    font-size:14px;
+    outline: none;
+    width: 95%;
+    margin: 12px 2.5%
+}
+.easy-mart-confirm-message input:active, .easy-mart-confirm-message textarea:active{
+    /* border: 1px solid #009688; */
+}
+.easy-mart-confirm-message input:hover,.easy-mart-confirm-message textarea:hover{
+    /* border: 1px solid #009688; */
+    transition: 1s;
+}
+.easy-mart-confirm-message ::placeholder {
+    color: #a5a5a5 ;
+  }
+
+.easy-mart-contact-us{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: #009688; */
+    border-radius: 5px;
+}
+
+  @media only screen and (min-width: 280px) and (max-width:992px) {
+    .easy-mart-confirm-message form input, .easy-mart-confirm-message form select, .easy-mart-confirm-message form textarea{
+        width: 95% !important;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width:492px) {
+    .easy-mart-contact-us{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

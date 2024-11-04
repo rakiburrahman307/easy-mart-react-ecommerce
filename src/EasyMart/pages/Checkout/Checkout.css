@@ -1,0 +1,116 @@
+.tmp-checkout-payment-container {
+  width: 70%;
+  margin: 30px auto;
+}
+.tmp-checkout-payment-container .checkout-top-toggle-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 20px 0px;
+}
+.checkout-top-toggle-section .checkout-top-toggle {
+  display: flex;
+  align-items: center;
+}
+.checkout-top-toggle-section .checkout-top-toggle h6 {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  /* background-color: #00000061; */
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.checkout-top-toggle-section .checkout-top-toggle p {
+  width: 142px;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+.checkout-top-toggle-section .checkout-top-toggle hr {
+  width: 144px;
+}
+/* ------------------------------- */
+
+.tmp-checkout-shipping-container {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #fff;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+.tmp-checkout-shipping-container h2 {
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.tmp-checkout-shipping-container input,
+.tmp-checkout-shipping-container textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  color: #333;
+  background-color: #eaeaea;
+  border: 1px solid;
+}
+
+.tmp-checkout-payment-container input[type="submit"] {
+  padding: 7px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* checkout-next-btn */
+.checkout-next-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.bkash-btn {
+  width: 200px;
+  height: 70px;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1100px) and (max-width: 1250px) {
+  .checkout-top-toggle-section .checkout-top-toggle hr {
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+  .checkout-top-toggle-section .checkout-top-toggle hr {
+    width: 46px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .checkout-top-toggle-section .checkout-top-toggle p {
+    width: auto;
+  }
+  .checkout-top-toggle-section .checkout-top-toggle hr {
+    display: none;
+  }
+  .tmp-checkout-payment-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  .checkout-top-toggle-section .checkout-top-toggle p {
+    margin: 0px 5px;
+  }
+}

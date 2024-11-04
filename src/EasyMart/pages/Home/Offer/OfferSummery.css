@@ -1,0 +1,111 @@
+.easy-mart-offers-summery-container{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.easy-mart-offers-summery-container .easy-mart-offers-summery-image{
+    position: relative;
+}
+/* .easy-mart-offers-summery-container .easy-mart-offers-summery-image:hover .image img{
+    transform: scale(1.1);
+    transition: 1s;
+} */
+.easy-mart-offers-summery-container .image{
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.easy-mart-offers-summery-container .image img{
+    /* display: inline-block; */
+    width: 100%;
+    /* height: auto; */
+    /* vertical-align: middle; */
+}
+.easy-mart-offers-summery-container h4 {
+    font-size: 13px;
+    line-height: 17px;
+    /* color: var(--color8); */
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px;
+    /* font-weight: bold; */
+    height: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.easy-mart-offers-summery-container p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+
+.easy-mart-offers-summery-container .hot{
+    /* border-radius: 50px; */
+    color:#fff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 50px;
+    height: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(270deg,#ff5f3b,#ff1f00);
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+}
+.easy-mart-offers-summery-container .hot span{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -48%)
+}
+.easy-mart-offer-product-btn{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.easy-mart-offer-product-btn-1{
+    width: 20%;
+    border: none;
+    padding:5px 0px;
+    font-size: 13px;
+}
+.easy-mart-offer-product-btn-2{
+    /* width: 80% !important; */
+    border: none;
+    padding:5px 0px;
+    font-size: 13px;
+}
+.easy-mart-offer-product-btn-3{
+    width: 20%;
+    border: none;
+    padding:5px 0px;
+    font-size: 13px;
+}
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .easy-mart-offers-summery-container .image{
+        width: 170px;
+        height: 170px;
+    }
+} 
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .easy-mart-offers-summery-container .image{
+        width: 292px;
+        height: 292px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .easy-mart-offers-summery-container .image {
+        height: 160px;
+        width: 160px;
+    }
+}

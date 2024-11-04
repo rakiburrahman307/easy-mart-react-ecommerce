@@ -1,0 +1,23 @@
+.easy-mart-banner-small-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.easy-mart-banner-small-inner{
+    width:100%;
+    border-radius:5px;
+    overflow: hidden;
+    position: relative;
+}
+.easy-mart-banner-small-inner:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+    .easy-mart-banner-small-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}
+

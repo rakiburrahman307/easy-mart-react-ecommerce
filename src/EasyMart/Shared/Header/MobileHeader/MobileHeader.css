@@ -1,0 +1,99 @@
+.tmp-header-mobile-form {
+  position: relative;
+}
+.tmp-header-mobile-form input {
+  font-size: 15px;
+  width: 540px;
+  height: 46px;
+  border: none;
+  outline: none;
+  padding: 9px 10px 10px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.tmp-header-mobile-form .search-btn {
+  width: 70px;
+  height: 46px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #2d2d2d;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.tmp-header-mobile-suggestSearch {
+  position: absolute;
+  top: 45px;
+  z-index: 9999999;
+  width: 610px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 21%);
+  margin-top: 5px;
+  border-radius: 3px;
+  max-height: 335px;
+  overflow-y: auto;
+}
+.tmp-header-mobile-form .suggest-search-btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 1px solid #eaeaea;
+}
+.tmp-header-mobile-suggestSearch h6:last-child {
+  margin-bottom: 0px;
+}
+.tmp-header-mobile-search-text-line-climb {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tmp-header-mobile-logo {
+  display: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .tmp-header-mobile-logo {
+    display: inline-block !important;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .tmp-header-mobile-form input,
+  .tmp-header-mobile-form .search-btn {
+    height: 35px;
+  }
+  .tmp-header-mobile-logo .tmp-header-mobile-form {
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .tmp-header-mobile-logo .tmp-header-mobile-suggestSearch {
+    z-index: 9999999;
+    width: 96%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 21%);
+    margin-top: 5px;
+    border-radius: 3px;
+  }
+  .tmp-header-mobile-logo .navbar-nav {
+    color: #0000008c !important;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 768px) {
+  .tmp-header-mobile-form input {
+    width: 400px !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+  .tmp-header-mobile-form input {
+    width: 100% !important;
+  }
+}

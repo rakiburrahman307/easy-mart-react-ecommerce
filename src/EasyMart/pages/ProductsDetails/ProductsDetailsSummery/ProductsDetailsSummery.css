@@ -1,0 +1,169 @@
+.product-details-summery {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 50% 50%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.product-details-summery h4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.product-details-summery .price p {
+  font-size: 20px;
+  font-weight: bold;
+  /* color: #157ed2; */
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.tmp-product-details-summery-inner {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.product-details-reaction-container .reaction {
+  position: relative;
+  cursor: pointer;
+}
+
+.product-details-reaction-container .reaction-view {
+  position: absolute;
+  top: -40px;
+  /* left: 50%;
+    transform: translateX(-50%); */
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 8%);
+  padding: 5px 12px;
+  border-radius: 20px;
+  opacity: 0;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-details-reaction-container .reaction-view img {
+  width: 20px;
+  margin: 5px;
+}
+.product-details-reaction-container .reaction-view img:hover {
+  transform: scale(1.7);
+}
+.product-details-reaction-container .reaction:hover .reaction-view {
+  opacity: 1;
+  transition: 1s;
+}
+.tmp-product-details-summery-inner .react-simple-star-rating {
+  position: unset !important;
+}
+.product-summery-info {
+  text-transform: capitalize;
+  /* color: #157ed2; */
+  margin-bottom: 15px;
+}
+.product-summery-info span {
+  font-size: 15px;
+}
+.carousel .thumbs {
+  text-align: center !important;
+}
+
+.product-details-summery .carousel ul {
+  padding-left: 0px !important;
+}
+
+.swal2-image {
+  margin: 0em auto 0em !important;
+  padding: 20px !important;
+}
+
+.product-details-summery-description .description {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+/* ------------------------------------------------------------------- */
+/* Related Products */
+/* ------------------------------------------------------------------- */
+.tmp-ProductsDetailsInner-container {
+  padding: 0px 20px 15px 20px;
+  box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  border-radius: 8px;
+}
+.tmp-ProductsDetailsInner-container h3 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.tmp-ProductsDetailsInner-products-btn {
+  padding: 5px 20px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 5px 0px;
+  position: relative;
+}
+.tmp-ProductsDetailsInner-products-btn-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+  width: 100px;
+  height: 40px;
+  opacity: 0;
+}
+.related-products-section-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .related-products-section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .related-products-section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .product-details-summery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tmp-ProductsDetailsInner-products-btn {
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+  .product-details-summery .carousel * {
+    margin-right: 0px !important;
+    padding: 0.5px !important;
+  }
+  .product-details-summery .carousel .thumbs-wrapper {
+    margin: 20px 0px !important;
+  }
+  .product-details-summery .carousel .carousel-status {
+    top: 3px !important;
+    right: 12px !important;
+  }
+}

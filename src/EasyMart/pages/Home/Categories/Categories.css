@@ -1,0 +1,57 @@
+.easy-mart-categories-container {
+}
+.easy-mart-categories-container h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0px 10px 20px;
+}
+.easy-mart-categories-products {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+}
+
+.easy-mart-categories-products-btn {
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  margin: 5px 20px 5px 0px;
+  position: relative;
+  width: 105px;
+}
+
+.easy-mart-categories-products-btn-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+  width: 100px;
+  height: 40px;
+  /* padding: 0px 25px; */
+  /* visibility: hidden; */
+  opacity: 0;
+  /* display: contents; */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .easy-mart-categories-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .easy-mart-categories-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .easy-mart-categories-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

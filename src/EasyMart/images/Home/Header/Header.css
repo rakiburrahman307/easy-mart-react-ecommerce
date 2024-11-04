@@ -1,0 +1,178 @@
+.tmp10-top-header{
+    background-color: #fff !important;
+    position: relative;
+    border-bottom: 1px solid  #eee;
+}
+.tmp10-top-header .navbar-nav, .tmp10-top-header .nav-link {
+    color: #3e445a !important;
+    font-size: 16px !important;
+}
+.tmp10-header .dropdown {
+    z-index: 22222 !important;
+    margin-top: 6px !important;
+}
+.tmp10-header .dropdown-item{
+    color: #3e445a !important;
+}
+.tmp10-header .dropdown-item:hover{
+    background-color: #2bbef9 !important;
+    color: #fff !important;
+}
+.tmp10-header .dropdown-menu {
+    position: absolute;
+    left: -80px !important;
+}
+.tmp10-header-cart{
+    position: relative;
+    font-size: 22px;
+}
+.tmp10-header-cart span {
+    position: absolute;
+    width: 20px;
+    background: #fff;
+    color: #111723;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    top: -2px;
+    left: 20px;
+    font-size: 10px;
+    box-shadow: 0px 0px 3px 0px #cacaca;
+}
+
+.tmp10-header-form{
+    margin-right:  30px;
+    display: flex;
+    position: relative;
+    box-shadow:  0px 0px 10px 0px #cacaca;
+    /* border: 1px solid #e2e5ec; */
+}
+.tmp10-header-form input{
+    width: 600px;
+    height: 46px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 9px 10px 10px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.tmp10-header-form .search-btn{
+    width: 70px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background: #fdd922;
+    color: #333;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.tmp10-suggestSearch{
+    position: absolute;
+    top: 45px;
+    z-index: 9999999;
+    width: 670px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 21%);
+    /* padding: 20px; */
+    margin-top: 5px;
+    border-radius: 3px;
+    max-height: 335px;
+    overflow-y: auto;
+}
+.tmp10-header-form .suggest-search-btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #eaeaea;
+}
+.tmp10-header-form .suggest-search-btn:hover{
+    color: #157ed2;
+}
+.tmp10-suggestSearch h6:last-child{
+    margin-bottom: 0px
+}
+.tmp10-search-text-line-climb{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.tmp10-header .navbar-dark, .tmp10-header .navbar-nav, .tmp10-header .nav-link {
+    color: #fff !important;
+    border-bottom: 1px solid transparent !important;
+    border-top: 1px solid transparent !important;
+    font-size: 14px;
+    padding: 2px 0px;
+}
+/* .tmp10-header-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+} */
+.tmp10-header-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px #cacaca;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.tmp10-header-icon-container:last-child{
+    margin-right: -20px;
+}
+.tmp10-dropdown-container{
+    position: relative;
+    display: inline-block;
+    margin-top: 6px;
+}
+.tmp10-dropbtn {
+  background-color: transparent !important;
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+}
+.tmp10-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 205px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.tmp10-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.tmp10-dropdown-container:hover .tmp10-dropdown-content {display: block;}
+.tmp10-dropdown-container:hover .tmp10-dropbtn {background-color: #3e8e41;}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .tmp10-header-form input{
+        width: 480px;
+    }
+    .tmp10-suggestSearch{
+        width: 550px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tmp10-top-header, .tmp10-header, .tmp10-searchbar{
+        display: none;
+    } 
+}
+

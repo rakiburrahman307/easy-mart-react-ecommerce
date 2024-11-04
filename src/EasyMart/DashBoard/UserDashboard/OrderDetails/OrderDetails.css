@@ -1,0 +1,36 @@
+.tmp-invoice-container{
+   box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+   background-color: #fff;
+   padding: 40px;
+   margin: 0px 70px
+}
+.tmp-invoice-top, .tmp-invoice-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.tmp-invoice-top p, .tmp-invoice-bottom p{
+   color: #666666;
+   font-size:13px;
+   margin: 5px 0px;
+}
+
+.tmp-invoice-bottom h4{
+   color: #666666;
+   font-weight: 500;
+   font-size: 20px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+/* .tmp-invoice-container .table>:not(:first-child) {
+   border-top-width: 0.1px !important;
+   border-color: var(--color3) !important;
+} */
+.tmp-invoice-container .table>:not(caption)>*>* {
+   border-bottom-width: 0.1px !important;
+   vertical-align: middle !important;
+}
+.tmp-invoice-container .table p {
+   padding: 20px 0px;
+}

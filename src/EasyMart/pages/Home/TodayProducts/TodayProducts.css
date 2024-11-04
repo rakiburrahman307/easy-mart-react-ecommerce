@@ -1,0 +1,29 @@
+.easy-mart-today-products h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0px 10px 20px;
+}
+.easy-mart-today-products-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+}
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .easy-mart-today-products-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .easy-mart-today-products-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:768px) {
+    .easy-mart-today-products-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

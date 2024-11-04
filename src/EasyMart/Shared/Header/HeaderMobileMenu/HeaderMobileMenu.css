@@ -1,0 +1,20 @@
+.header-mobile-menubar .nav-link{
+    color: #666666 !important;
+    padding-left: 0px !important;
+}
+.header-mobile-menu-cart{
+    position: relative;
+}
+.header-mobile-menu-cart span{
+    content: '7';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    top: -2px;
+    left: 57px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}

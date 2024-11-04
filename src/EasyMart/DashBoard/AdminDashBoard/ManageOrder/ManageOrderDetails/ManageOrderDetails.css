@@ -1,0 +1,38 @@
+.easy-mart-manage-orders-details {
+  box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  padding: 40px;
+  margin: 0px 70px;
+}
+.manage-orders-details-top,
+.manage-orders-details-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.manage-orders-details-top p,
+.manage-orders-details-bottom p {
+  color: #666666;
+  font-size: 13px;
+  margin: 5px 0px;
+}
+
+.manage-orders-details-bottom h4 {
+  color: #666666;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+/* .easy-mart-manage-orders-details .table>:not(:first-child) {
+   border-top-width: 0.1px !important;
+   border-color: var(--color3) !important;
+} */
+.easy-mart-manage-orders-details .table > :not(caption) > * > * {
+  border-bottom-width: 0.1px !important;
+  vertical-align: middle !important;
+}
+.easy-mart-manage-orders-details .table p {
+  padding: 20px 0px;
+}

@@ -1,0 +1,89 @@
+{
+      "data": [
+        {
+          "_id": "62669f5909e5ee4c31ce2599",
+          "email": "MINISTER",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892624339.jpeg",
+          "name": "MINISTER"
+        },
+        {
+          "_id": "62669f2c09e5ee4c31ce2592",
+          "email": "NESCAFF",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892578156.jpeg",
+          "name": "NESCAFF"
+        },
+        {
+          "_id": "62669f1909e5ee4c31ce258b",
+          "email": "HORLIKS",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892559140.jpeg",
+          "name": "HORLIKS"
+        },
+        {
+          "_id": "62669ebf09e5ee4c31ce2553",
+          "email": "SAMSUNG",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892471694.jpeg",
+          "name": "SAMSUNG"
+        },
+        {
+          "_id": "62669ea709e5ee4c31ce254c",
+          "email": "Lifboy",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892444839.jpeg",
+          "name": "Lifboy"
+        },
+        {
+          "_id": "62669e8a09e5ee4c31ce2545",
+          "email": "s",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892419576.png",
+          "name": "Kinlay"
+        },
+        {
+          "_id": "62669e7209e5ee4c31ce253e",
+          "email": "hp",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__1650892394520.jpeg",
+          "name": "HP."
+        },
+        {
+          "_id": "62669e2c09e5ee4c31ce2500",
+          "email": "",
+          "phone": "",
+          "status": true,
+          "address": "",
+          "website": "",
+          "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_SAMSUNG_1650892326227.png",
+          "name": "PRAN"
+        }
+      ],
+      "total_pages": null,
+      "total": 8,
+      "return_items": 8,
+      "limit": null,
+      "page": 1
+    }

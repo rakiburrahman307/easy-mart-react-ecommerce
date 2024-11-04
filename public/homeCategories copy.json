@@ -1,0 +1,1579 @@
+ [
+        {
+          "cate_name": "Grocery",
+          "products": [
+            {
+              "_id": "6262207ea2763f1c3862290e",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png",
+                "https://cdn.selfeb.com/images/view/images_Miniket-Standard-Rice-1kg-101-Grocery_1650598121179.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png"
+              ],
+              "sell_price": 309,
+              "discount": 5,
+              "superOffer": true,
+              "slug": "4-Finger-5-pcs-Indian-Chocolate-Grocery-Nescafa",
+              "name": " 4 Finger 5 pcs Indian Chocolate ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626220f5a2763f1c38622953",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Miniket-Standard-Rice-1kg-101-Grocery_1650598121179.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 64,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Miniket-Standard-Rice-1kg-Grocery",
+              "name": "Miniket Standard Rice-1kg",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6262315ba2763f1c386229e4",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Rose-Garden-Pomace-150ml-TIN-(blended-with-finest-olive)-101-Grocery_1650602298135.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 290,
+              "discount": 15,
+              "superOffer": true,
+              "slug": "Rose-Garden-Pomace-150ml-TIN-(blended-with-finest-olive)-Grocery",
+              "name": " Rose Garden Pomace 150ml TIN (blended with finest olive) ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626231ada2763f1c386229f8",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Lokman-Strawberry-Jam-360-gm-Grocery",
+              "name": "Lokman Strawberry Jam 360 gm",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626231f6a2763f1c38622a1a",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Varda-Mayonnaise-946-ml-101-Grocery_1650602473919.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 350,
+              "discount": 20,
+              "superOffer": true,
+              "slug": "Varda-Mayonnaise-946-ml-Grocery",
+              "name": "Varda Mayonnaise 946 ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62623227a2763f1c38622a2e",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Luglio-Sunflower-Oil-5-Ltr-Pet-101-Grocery_1650602525669.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 850,
+              "discount": 5,
+              "superOffer": true,
+              "slug": "Luglio-Sunflower-Oil-5-Ltr-Pet-Grocery",
+              "name": "Luglio Sunflower Oil 5 Ltr Pet",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626640e509e5ee4c31cdfd62",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Stylish-Teens-Super-Trendy-Leaves-Design-Ring-for-Women-and-Girls-(FR-16)-121-Grocery_1650868448607.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 345,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Stylish-Teens-Super-Trendy-Leaves-Design-Ring-for-Women-and-Girls-(FR-16)-Grocery",
+              "name": "Stylish Teens Super Trendy Leaves Design Ring for Women and Girls (FR-16)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266411f09e5ee4c31cdfd76",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Garlic-()-500-GM-121-Grocery_1650868497860.png",
+                "https://cdn.selfeb.com/images/view/images_Lokman-Strawberry-Jam-360-gm-101-Grocery_1650602403380.png",
+                "https://cdn.selfeb.com/images/view/images_4-Finger-5-pcs-Indian-Chocolate-101-Nescafa-Grocery_1650597998903.png"
+              ],
+              "sell_price": 330,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Garlic-()-500-GM-Grocery",
+              "name": "Garlic (রসুন) 500 GM",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Babies and Toys",
+          "products": [
+            {
+              "_id": "6262334fa2763f1c38622a76",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Unicorn-School-Bag-101-Babies-and-Toys_1650738108859.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Carrier-Bag-101-Babies-and-Toys_1650738208357.png"
+              ],
+              "sell_price": 210,
+              "discount": 10,
+              "superOffer": true,
+              "slug": "Luglio-Skin-Care-Olive-Oil-100-ml-Babies-and-Toys",
+              "name": "Luglio Skin Care Olive Oil 100 ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626443cea2763f1c38631ecd",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Unicorn-School-Bag-101-Babies-and-Toys_1650738108859.png",
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 750,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Unicorn-School-Bag-Babies-and-Toys",
+              "name": " Unicorn School Bag ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62644427a2763f1c386332e2",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Baby-Carrier-Bag-101-Babies-and-Toys_1650738208357.png",
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 750,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Baby-Carrier-Bag-Babies-and-Toys",
+              "name": " Baby Carrier Bag",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626445dca2763f1c38636a3f",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png",
+                "https://cdn.selfeb.com/images/view/images_Nestle-Pre-NAN-Preterm-and-Low-Birth-Weight-Infant-Tin-400g-101-Babies-and-Toys_1650738774765.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 1750,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Baby-Rocking-Bouncer-Balance-Soft-Red-Color-Babies-and-Toys",
+              "name": " Baby Rocking Bouncer Balance Soft Red Color ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6264465da2763f1c386387df",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Nestle-Pre-NAN-Preterm-and-Low-Birth-Weight-Infant-Tin-400g-101-Babies-and-Toys_1650738774765.png",
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 920,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Nestle-Pre-NAN-Preterm-and-Low-Birth-Weight-Infant-Tin-400g-Babies-and-Toys",
+              "name": " Nestle Pre NAN Preterm & Low Birth Weight Infant Tin 400g ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6264577da2763f1c3868cc27",
+              "product_code": "101",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_SaRa-Girls-Kurti-(MINI3GKU32SDG-Yellow)-101-Babies-and-Toys_1650743155006.png",
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 1420,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "SaRa-Girls-Kurti-(MINI3GKU32SDG-Yellow)-Babies-and-Toys",
+              "name": " SaRa Girls Kurti (MINI3GKU32SDG-Yellow) ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266417609e5ee4c31cdfdc6",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_SaRa-Boy-Casual-Shirt-(BCS171FEK-Peach)-121-Babies-and-Toys_1650868592679.png",
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 355,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "SaRa-Boy-Casual-Shirt-(BCS171FEK-Peach)-Babies-and-Toys",
+              "name": "SaRa Boy Casual Shirt (BCS171FEK-Peach)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626641c509e5ee4c31cdfdda",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_SaRa-Boys-Panjabi-(BPJ181ACMN2AK-light-lemon)-121-Babies-and-Toys_1650868670819.png",
+                "https://cdn.selfeb.com/images/view/images_Luglio-Skin-Care-Olive-Oil-100-ml-101-Babies-and-Toys_1650602823075.png",
+                "https://cdn.selfeb.com/images/view/images_Baby-Rocking-Bouncer-Balance-Soft-Red-Color-101-Babies-and-Toys_1650738279837.png"
+              ],
+              "sell_price": 345,
+              "discount": 5,
+              "superOffer": false,
+              "slug": "SaRa-Boys-Panjabi-(BPJ181ACMN2AK-light-lemon)-Babies-and-Toys",
+              "name": "SaRa Boys Panjabi (BPJ181ACMN2AK-light lemon)",
+              "rating": {
+                "score": 2,
+                "total": 1
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": " Mobile and Accessories",
+          "products": [
+            {
+              "_id": "626458c2a2763f1c38692ac4",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_UiiSii-HM13-In-Ear-Music-Headphones-With-Pouch-Earphone-Bag-(2pcs)-121-Mobile-and-Accessories_1650743605299.png"
+              ],
+              "sell_price": 1225,
+              "discount": 30,
+              "superOffer": true,
+              "slug": "F9-TWS-Touch-Wireless-Stereo-Bluetooth-5.0-Headphone-Mobile-and-Accessories-HP",
+              "name": " F9 TWS Touch Wireless Stereo Bluetooth 5.0 Headphone ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626458e9a2763f1c386933a0",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png",
+                "https://cdn.selfeb.com/images/view/images_UiiSii-HM13-In-Ear-Music-Headphones-With-Pouch-Earphone-Bag-(2pcs)-121-Mobile-and-Accessories_1650743605299.png"
+              ],
+              "sell_price": 1125,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-Mobile-and-Accessories",
+              "name": " Redmi Air Dots s True Wireless Earbuds Basic ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6264595aa2763f1c38694081",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_UiiSii-HM13-In-Ear-Music-Headphones-With-Pouch-Earphone-Bag-(2pcs)-121-Mobile-and-Accessories_1650743605299.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png"
+              ],
+              "sell_price": 1625,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "UiiSii-HM13-In-Ear-Music-Headphones-With-Pouch-Earphone-Bag-(2pcs)-Mobile-and-Accessories",
+              "name": " UiiSii HM13 In-Ear Music Headphones With Pouch Earphone Bag (2pcs) ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626459a3a2763f1c38695a60",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Tempretaure-glass-protector-Iphone-12-mini-121-Mobile-and-Accessories_1650743671215.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png"
+              ],
+              "sell_price": 1325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Tempretaure-glass-protector-Iphone-12-mini-Mobile-and-Accessories",
+              "name": " Tempretaure glass protector Iphone 12 mini ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626459dba2763f1c386985af",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_BX-31-SOFT-SILICONE-LIGHTNING-121-Mobile-and-Accessories_1650743763826.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png"
+              ],
+              "sell_price": 325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "BX-31-SOFT-SILICONE-LIGHTNING-Mobile-and-Accessories",
+              "name": " BX-31 SOFT SILICONE-LIGHTNING ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62645a11a2763f1c386988b4",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Vivo-Y91C-(232)-GB-Smartphone-121-Mobile-and-Accessories_1650743818672.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png"
+              ],
+              "sell_price": 13325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Vivo-Y91C-(232)-GB-Smartphone-Mobile-and-Accessories",
+              "name": " Vivo Y91C (2/32) GB Smartphone ",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62645a53a2763f1c3869ac07",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Haylou-LS05-Silicone-Smart-Watch-121-Mobile-and-Accessories_1650743871587.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png"
+              ],
+              "sell_price": 13325,
+              "discount": 5,
+              "superOffer": true,
+              "slug": "Haylou-LS05-Silicone-Smart-Watch-Mobile-and-Accessories",
+              "name": " Haylou LS05 Silicone Smart Watch",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62645a8aa2763f1c3869b83f",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_OnePlus-band-Smartwatch-121-Mobile-and-Accessories_1650743936474.png",
+                "https://cdn.selfeb.com/images/view/images_Redmi-Air-Dots-s-True-Wireless-Earbuds-Basic-121-Mobile-and-Accessories_1650743522916.png",
+                "https://cdn.selfeb.com/images/view/images_F9-TWS-Touch-Wireless-Stereo-Bluetooth-5_1650743485112.png"
+              ],
+              "sell_price": 17325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "OnePlus-band-Smartwatch-Mobile-and-Accessories",
+              "name": " OnePlus band Smartwatch",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": " Computer and Accessories",
+          "products": [
+            {
+              "_id": "62662bb809e5ee4c31cde9d4",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png",
+                "https://cdn.selfeb.com/images/view/images_Speaker-Quran-121-Computer-and-Accessories_1650863624874.png"
+              ],
+              "sell_price": 17325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-Computer-and-Accessories",
+              "name": "Computer Laptop Desk Small Foldable Multi-Function Bed Desk Simple Dormitory Lazy Table Bed with Laptop Table",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662d9e09e5ee4c31cdec3d",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png",
+                "https://cdn.selfeb.com/images/view/images_Speaker-Quran-121-Computer-and-Accessories_1650863624874.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png"
+              ],
+              "sell_price": 4325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "McAfee-Antivirus-1-PC-1Y-(Keys)-Computer-and-Accessories",
+              "name": "McAfee Antivirus 1-PC 1Y (Keys)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662e0c09e5ee4c31cdeca1",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Speaker-Quran-121-Computer-and-Accessories_1650863624874.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Speaker-Quran-Computer-and-Accessories",
+              "name": "Speaker Quran",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662e3b09e5ee4c31cdecea",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_ViewSonic-22Full-HD-Display-Ultra-Slim-Entertainment-Monitor-(DP-HDMI-VGA-and-Audio-Output)-121-Computer-and-Accessories_1650864297840.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 1325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Self-Defence-Flashlight-Computer-and-Accessories",
+              "name": "ViewSonic 22″Full HD Display Ultra-Slim Entertainment Monitor (DP, HDMI, VGA & Audio Output)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662e7709e5ee4c31cdecfe",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Samsung-22-Flat-FHD-with-Borderless-Design-Monitor-(Black)-121-Computer-and-Accessories_1650864340627.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 3425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Samsung-22-Flat-FHD-with-Borderless-Design-Monitor-(Black)-Computer-and-Accessories",
+              "name": "Samsung 22″ Flat FHD with Borderless Design Monitor (Black)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662ebd09e5ee4c31cded8e",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_HP-M24FW-23_1650864390196.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 2425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "HP-M24FW-23.8-Inch-FHD-IPS-HDMI-VGA-Monitor-Computer-and-Accessories",
+              "name": "HP M24FW 23.8 Inch FHD IPS HDMI VGA Monitor",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662ef109e5ee4c31cdeda2",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Dell-Vostro15_1650864366116.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 2425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Dell-Vostro15.6-3500-Intel-Core-i3-11th-Gen-4GB1TB-HDD-Laptop-(Accent-Black)-Computer-and-Accessories",
+              "name": "Dell Vostro15.6″ 3500 Intel Core i3 – 11th Gen 4GB/1TB HDD Laptop (Accent Black)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662f1c09e5ee4c31cdedb6",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_A4-TECH-KRS-83-Wired-Keyboard-(Multimedia)-with-Bangla-Key-(Black)-121-Computer-and-Accessories_1650863927152.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 2425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "A4-TECH-KRS-83-Wired-Keyboard-(Multimedia)-with-Bangla-Key-(Black)-Computer-and-Accessories",
+              "name": "A4 TECH KRS-83 Wired Keyboard (Multimedia) with Bangla Key (Black)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62662f8e09e5ee4c31cdee11",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_HP-USB-3_1650864007041.png",
+                "https://cdn.selfeb.com/images/view/images_Computer-Laptop-Desk-Small-Foldable-Multi-Function-Bed-Desk-Simple-Dormitory-Lazy-Table-Bed-with-Laptop-Table-121-Computer-and-Accessories_1650863012333.png",
+                "https://cdn.selfeb.com/images/view/images_McAfee-Antivirus-1-PC-1Y-(Keys)-121-Computer-and-Accessories_1650863508471.png"
+              ],
+              "sell_price": 3425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "HP-USB-3.1-Pendrive-16-GB-Computer-and-Accessories",
+              "name": "HP USB 3.1 Pendrive - 16 GB",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Vehicles and Automobiles",
+          "products": [
+            {
+              "_id": "626631eb09e5ee4c31cdf001",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png",
+                "https://cdn.selfeb.com/images/view/images_Electric-Air-Pump-121-Vehicles-and-Automobiles_1650864667332.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png"
+              ],
+              "sell_price": 1325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-Vehicles-and-Automobiles",
+              "name": "Baseus Explore Wireless Charger Gravity Car Mount（15W）Transparent",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266322309e5ee4c31cdf015",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Electric-Air-Pump-121-Vehicles-and-Automobiles_1650864667332.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 3325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Electric-Air-Pump-Vehicles-and-Automobiles",
+              "name": "Electric Air Pump",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266324a09e5ee4c31cdf029",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 3325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Rearview-Mirror-Mount-Stand-Vehicles-and-Automobiles",
+              "name": "Rearview Mirror Mount Stand",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266327209e5ee4c31cdf03d",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Baby-Portable-Car-Seat-121-Vehicles-and-Automobiles_1650864749586.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 3325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Baby-Portable-Car-Seat-Vehicles-and-Automobiles",
+              "name": "Baby Portable Car Seat",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266329c09e5ee4c31cdf051",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Aeroterma-Ventilator-Car-Heater-121-Vehicles-and-Automobiles_1650864791871.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Aeroterma-Ventilator-Car-Heater-Vehicles-and-Automobiles",
+              "name": "Aeroterma Ventilator Car Heater",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626632dd09e5ee4c31cdf09b",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Phillips-Bicycle-for-kids-20-121-Vehicles-and-Automobiles_1650865013518.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Phillips-Bicycle-for-kids-20\"-Vehicles-and-Automobiles",
+              "name": "Phillips Bicycle for kids 20",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626633b909e5ee4c31cdf1ab",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_16-in-1-Bike-Pocket-Repair-Tools-Set-Bicycle-Multifunctional-Tool-Kit-121-Vehicles-and-Automobiles_1650865075877.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "16-in-1-Bike-Pocket-Repair-Tools-Set-Bicycle-Multifunctional-Tool-Kit-Vehicles-and-Automobiles",
+              "name": "16 in 1 Bike Pocket Repair Tools Set Bicycle Multifunctional Tool Kit",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626633e109e5ee4c31cdf1f4",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Robo-Car-Shampoo-5L-(FC15)-121-Vehicles-and-Automobiles_1650865114197.png",
+                "https://cdn.selfeb.com/images/view/images_Rearview-Mirror-Mount-Stand-121-Vehicles-and-Automobiles_1650864709516.png",
+                "https://cdn.selfeb.com/images/view/images_Baseus-Explore-Wireless-Charger-Gravity-Car-Mount15WTransparent-121-Vehicles-and-Automobiles_1650864614671.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Robo-Car-Shampoo-5L-(FC15)-Vehicles-and-Automobiles",
+              "name": "Robo Car Shampoo 5L (FC15)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": " Electronics and Appliances",
+          "products": [
+            {
+              "_id": "626634a009e5ee4c31cdf269",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_BBQ-Stand-(Free-1kg-Koyla)-121-Vehicles-and-Automobiles_1650865385622.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Nima-Electric-Grinder-Vehicles-and-Automobiles",
+              "name": "Nima Electric Grinder",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626634ca09e5ee4c31cdf27d",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png",
+                "https://cdn.selfeb.com/images/view/images_BBQ-Stand-(Free-1kg-Koyla)-121-Vehicles-and-Automobiles_1650865385622.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Capsule-Cutter-Blender-Vehicles-and-Automobiles",
+              "name": "Capsule Cutter Blender",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626634ee09e5ee4c31cdf291",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_BBQ-Stand-(Free-1kg-Koyla)-121-Vehicles-and-Automobiles_1650865385622.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png"
+              ],
+              "sell_price": 1325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "BBQ-Stand-(Free-1kg-Koyla)-Vehicles-and-Automobiles",
+              "name": "BBQ Stand (Free 1kg Koyla)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266351109e5ee4c31cdf2a5",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Mini-Sewing-Machine-Dual-Speed-Portable-Mini-Electric-Pedal-Double-Threads-Rewind-Swing-Machine-121-Vehicles-and-Automobiles_1650865421160.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png"
+              ],
+              "sell_price": 2325,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Mini-Sewing-Machine-Dual-Speed-Portable-Mini-Electric-Pedal-Double-Threads-Rewind-Swing-Machine-Vehicles-and-Automobiles",
+              "name": "Mini Sewing Machine - Dual Speed Portable Mini Electric Pedal Double Threads Rewind Swing Machine",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266353e09e5ee4c31cdf2b9",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Hip-HD-LED-TV-32-Black-smile-121-Vehicles-and-Automobiles_1650865465649.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png"
+              ],
+              "sell_price": 24425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Hip-HD-LED-TV-32-Black-smile-Vehicles-and-Automobiles",
+              "name": "Hip HD LED TV - 32 - Black smile",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266356209e5ee4c31cdf2cd",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_MIDEA-1_1650865500590.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png"
+              ],
+              "sell_price": 24425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "MIDEA-1.5-Ton-Split-Type-AC-Non-inverter-(-6-Years-Compressor-Guarantee-)-Low-Energy-Vehicles-and-Automobiles",
+              "name": "MIDEA 1.5 Ton Split Type AC Non inverter ( 6 Years Compressor Guarantee ) Low Energy",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266358709e5ee4c31cdf2e1",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Mi-43-''-4K-Tv-P1-Series-Hdr-Android-Led-Tv-Borderless-With-Voice-Control-2-Gb-16-Gb-121-Vehicles-and-Automobiles_1650865537180.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png"
+              ],
+              "sell_price": 5425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Mi-43-''-4K-Tv-P1-Series-Hdr-Android-Led-Tv-Borderless-With-Voice-Control-2-Gb-16-Gb-Vehicles-and-Automobiles",
+              "name": "Mi 43 '' 4K Tv P1 Series Hdr Android Led Tv Borderless With Voice Control- 2 Gb 16 Gb",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626635ae09e5ee4c31cdf2f5",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865577607.png",
+                "https://cdn.selfeb.com/images/view/images_Capsule-Cutter-Blender-121-Vehicles-and-Automobiles_1650865348698.png",
+                "https://cdn.selfeb.com/images/view/images_43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-121-Vehicles-and-Automobiles_1650865285486.png"
+              ],
+              "sell_price": 5425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "43-''-Inova-Smile-Android-Smart-wifi-(-RAM-1-GB-ROM-8-GB-)full-HD-LED-TV-Black-Vehicles-and-Automobiles",
+              "name": "43 '' Inova Smile Android Smart /wifi ( RAM-1 GB-ROM 8 GB )full HD LED TV - Black",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Men's Fashion",
+          "products": [
+            {
+              "_id": "626636d109e5ee4c31cdf46f",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Pocket-Deo-Al-Dashir-Pocket-Deo-18ml-121-Electronics-and-Appliances_1650865954565.png"
+              ],
+              "sell_price": 425,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-",
+              "name": "T9 men's Trimmer Hair Clipper USB Rechargeable Hair Cutting Kit LCD Screen Electric Hair Trimmer",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626636fe09e5ee4c31cdf480",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Pocket-Deo-Al-Dashir-Pocket-Deo-18ml-121-Electronics-and-Appliances_1650865954565.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 225,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-",
+              "name": "LAFZ Premium Body Spray Indian Meliha 120ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266372809e5ee4c31cdf494",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Pocket-Deo-Al-Dashir-Pocket-Deo-18ml-121-Electronics-and-Appliances_1650865954565.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 343,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "LAFZ-Pocket-Deo-Al-Dashir-Pocket-Deo-18ml-Electronics-and-Appliances",
+              "name": "LAFZ Pocket Deo Al Dashir Pocket Deo 18ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626637ae09e5ee4c31cdf54c",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_FOGG-Body-Scent-Trump-50ml-121-Men's-Fashion_1650866088550.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 343,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "FOGG-Body-Scent-Trump-50ml-Men's-Fashion",
+              "name": "FOGG Body Scent - Trump 50ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626637dc09e5ee4c31cdf595",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_FOGG-Rockstar-Series-Dazzle-100ml-121-Men's-Fashion_1650866134671.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 2435,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "FOGG-Rockstar-Series-Dazzle-100ml-Men's-Fashion",
+              "name": "FOGG Rockstar Series - Dazzle 100ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266381d09e5ee4c31cdf5de",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Menz-Solid-Half-Sleeve-polo-Shirt-Blue-121-Men's-Fashion_1650866200534.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 2435,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Menz-Solid-Half-Sleeve-polo-Shirt-Blue-Men's-Fashion",
+              "name": "Menz Solid Half  Sleeve  polo Shirt Blue",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266384209e5ee4c31cdf5f2",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Premium-Quality-Half-Sleeve-polo-Shirt-Dark-Brown-121-Men's-Fashion_1650866233926.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 2435,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Premium-Quality-Half-Sleeve-polo-Shirt-Dark-Brown-Men's-Fashion",
+              "name": "Premium Quality  Half Sleeve  polo Shirt Dark  Brown",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266387609e5ee4c31cdf63b",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Gent's-Casual-Formal-Belt(KB-CORI-21)-121-Men's-Fashion_1650866289504.png",
+                "https://cdn.selfeb.com/images/view/images_LAFZ-Premium-Body-Spray-Indian-Meliha-120ml-121_1650865913558.png",
+                "https://cdn.selfeb.com/images/view/images_T9-men's-Trimmer-Hair-Clipper-USB-Rechargeable-Hair-Cutting-Kit-LCD-Screen-Electric-Hair-Trimmer-121_1650865866994.png"
+              ],
+              "sell_price": 335,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Gent's-Casual-Formal-Belt(KB-CORI-21)-Men's-Fashion",
+              "name": "Gent's Casual Formal Belt(KB-CORI-21)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Women's Fashion",
+          "products": [
+            {
+              "_id": "6266391509e5ee4c31cdf6df",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Mini-Hair-Straightening-And-Curling-Irons-Portable-Hair-Curler-121-Women's-Fashion_1650866560904.png"
+              ],
+              "sell_price": 535,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Miyako-Hair-Dryer-RCY-D12-Women's-Fashion",
+              "name": "Miyako Hair Dryer RCY-D12",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266395709e5ee4c31cdf6f3",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png",
+                "https://cdn.selfeb.com/images/view/images_Mini-Hair-Straightening-And-Curling-Irons-Portable-Hair-Curler-121-Women's-Fashion_1650866560904.png"
+              ],
+              "sell_price": 335,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "360-Rotation-Plastic-Cosmetic-Organizer-Women's-Fashion",
+              "name": "360 Rotation Plastic Cosmetic Organizer",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266398709e5ee4c31cdf707",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Mini-Hair-Straightening-And-Curling-Irons-Portable-Hair-Curler-121-Women's-Fashion_1650866560904.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png"
+              ],
+              "sell_price": 435,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Mini-Hair-Straightening-And-Curling-Irons-Portable-Hair-Curler-Women's-Fashion",
+              "name": "Mini Hair Straightening And Curling Irons Portable Hair Curler",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626639ba09e5ee4c31cdf754",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Zayn-and-Myza-Blink-It-Mascara-9g-121-Women's-Fashion_1650866613166.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png"
+              ],
+              "sell_price": 135,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Zayn-and-Myza-Blink-It-Mascara-9g-Women's-Fashion",
+              "name": "Zayn & Myza Blink It Mascara 9g",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "626639fc09e5ee4c31cdf779",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Zayn-and-Myza-Blink-It-Mascara-9g-121-Women's-Fashion_1650869457923.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png"
+              ],
+              "sell_price": 635,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Zayn-and-Myza-Blink-It-Mascara-9g-Women's-Fashion",
+              "name": "Zayn & Myza Blink It Mascara 9g",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663a3b09e5ee4c31cdf78d",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_SaRa-Ladies-Shrug-(NWFT51B-Black-and-Pink-Multicolor-print)-121-Women's-Fashion_1650866743186.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png"
+              ],
+              "sell_price": 635,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "SaRa-Ladies-Shrug-(NWFT51B-Black-and-Pink-Multicolor-print)-Women's-Fashion",
+              "name": "SaRa Ladies Shrug (NWFT51B-Black & Pink Multicolor print)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663a6e09e5ee4c31cdf7a1",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Kemei-KM-6830-Hair-Dryer-for-women-1200-Watt-121-Women's-Fashion_1650866793650.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png"
+              ],
+              "sell_price": 435,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Kemei-KM-6830-Hair-Dryer-for-women-1200-Watt-Women's-Fashion",
+              "name": "Kemei KM 6830 Hair Dryer for women 1200 Watt",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663aa209e5ee4c31cdf7ea",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Kemei-km-6637-Corded-and-Cordless-Trimmer-for-Women-121-Women's-Fashion_1650866845680.png",
+                "https://cdn.selfeb.com/images/view/images_360-Rotation-Plastic-Cosmetic-Organizer-121-Women's-Fashion_1650866486463.png",
+                "https://cdn.selfeb.com/images/view/images_Miyako-Hair-Dryer-RCY-D12-121-Women's-Fashion_1650866448385.png"
+              ],
+              "sell_price": 735,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Kemei-km-6637-Corded-and-Cordless-Trimmer-for-Women-Women's-Fashion",
+              "name": "Kemei km-6637 Corded & Cordless Trimmer for Women",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Home Decor and Lifestyle",
+          "products": [
+            {
+              "_id": "62663b5f09e5ee4c31cdf83a",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png",
+                "https://cdn.selfeb.com/images/view/images_2-Layer-Smart-Dish-Rack-(Stainless-Steel)-121-Home-Decor-and-Lifestyle_1650867076854.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png"
+              ],
+              "sell_price": 675,
+              "discount": 25,
+              "superOffer": true,
+              "slug": "Aluminium-Smart-Wall-Hanging-Kitchen-Rack-Home-Decor-and-Lifestyle",
+              "name": "Aluminium Smart Wall Hanging Kitchen Rack",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663b8909e5ee4c31cdf84e",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_2-Layer-Smart-Dish-Rack-(Stainless-Steel)-121-Home-Decor-and-Lifestyle_1650867076854.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 575,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "2-Layer-Smart-Dish-Rack-(Stainless-Steel)-Home-Decor-and-Lifestyle",
+              "name": "2 Layer Smart Dish Rack (Stainless Steel)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663bc809e5ee4c31cdf862",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-Home-Decor-and-Lifestyle",
+              "name": "Godrej Proclean Tailet + Floor Cleaner Combo",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663bf909e5ee4c31cdf876",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_AER-CAR-FRESHNER-TST-Cocktel-D_1650867186247.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 575,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "AER-CAR-FRESHNER-TST-Cocktel-D.BRD-Home-Decor-and-Lifestyle",
+              "name": "AER CAR FRESHNER TST Cocktel D.BRD",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663cff09e5ee4c31cdf90b",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Ray-Hand-Wash-(Pump)-Lavender-250-ml-121-Home-Decor-and-Lifestyle_1650867514853.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Amazing-Shoe-Rack-Home-Decor-and-Lifestyle",
+              "name": "Ray Hand Wash (Pump) Lavender 250 ml",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663d1c09e5ee4c31cdf91f",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Bashundhara-Napkin-100-Sheets-121-Home-Decor-and-Lifestyle_1650867479129.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Bashundhara-Napkin-100-Sheets-Home-Decor-and-Lifestyle",
+              "name": "Bashundhara Napkin 100 Sheets",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663d7709e5ee4c31cdf945",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_Hand-Gloves-100pcs-Poly-121-Home-Decor-and-Lifestyle_1650867573770.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Hand-Gloves-100pcs-Poly-Home-Decor-and-Lifestyle",
+              "name": "Hand Gloves 100pcs Poly",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663da109e5ee4c31cdf98e",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": [
+                "https://cdn.selfeb.com/images/view/images_SaRa-Bedsheet-(BSPC220B-Navy)-121-Home-Decor-and-Lifestyle_1650867612178.png",
+                "https://cdn.selfeb.com/images/view/images_Godrej-Proclean-Tailet-+-Floor-Cleaner-Combo-121-Home-Decor-and-Lifestyle_1650867135009.png",
+                "https://cdn.selfeb.com/images/view/images_Aluminium-Smart-Wall-Hanging-Kitchen-Rack-121-Home-Decor-and-Lifestyle_1650867034529.png"
+              ],
+              "sell_price": 175,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "SaRa-Bedsheet-(BSPC220B-Navy)-Home-Decor-and-Lifestyle",
+              "name": "SaRa Bedsheet (BSPC220B-Navy)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Gift Items",
+          "products": [
+            {
+              "_id": "62663e6609e5ee4c31cdf9da",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_I-love-her-and-I-love-him-couple-ring-titanium-steel-ring-men-and-women-jewelry-(CR-42)-121-Gift-Items_1650867810062.png",
+              "sell_price": 575,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "I-love-her-and-I-love-him-couple-ring-titanium-steel-ring-men-and-women-jewelry-(CR-42)-Gift-Items",
+              "name": "I love her and I love him couple ring titanium steel ring men and women jewelry (CR-42)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663ef509e5ee4c31cdfa02",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_3-In-1-Travel-pillow-set-multicolour-121-Gift-Items_1650867951631.png",
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "3-In-1-Travel-pillow-set-multicolour-Gift-Items",
+              "name": "3 In 1 Travel pillow set - multicolour",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663f2709e5ee4c31cdfa27",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_Oil-Pull-Up-Leather-Keyring-SB-KR14-121-Gift-Items_1650868001785.png",
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Oil-Pull-Up-Leather-Keyring-SB-KR14-Gift-Items",
+              "name": "Oil Pull Up Leather Keyring SB-KR14",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663f5709e5ee4c31cdfa74",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_Flower-Ornaments-(KB-ABIDA-D-18)-121-Gift-Items_1650868049882.png",
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Flower-Ornaments-(KB-ABIDA-D-18)-Gift-Items",
+              "name": "Flower Ornaments (KB-ABIDA-D-18)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663f8909e5ee4c31cdfb29",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_Neckless-Set-(KB-M-AND-P-F-12)-121-Gift-Items_1650868100618.png",
+              "sell_price": 375,
+              "discount": 5,
+              "superOffer": true,
+              "slug": "Neckless-Set-(KB-M-AND-P-F-12)-Gift-Items",
+              "name": "Neckless Set (KB-M-AND-P-F-12)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "62663fc909e5ee4c31cdfb72",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_I-Love-You-Engraved-Couple-Necklace-Lovers-Gifts-Chain-Puzzle-Matching-(CP-24Silver)-121-Gift-Items_1650868164801.png",
+              "sell_price": 575,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "I-Love-You-Engraved-Couple-Necklace-Lovers-Gifts-Chain-Puzzle-Matching-(CP-24Silver)-Gift-Items",
+              "name": "I Love You Engraved Couple Necklace Lovers Gifts Chain Puzzle Matching (CP-24Silver)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266401109e5ee4c31cdfb96",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_Romantic-Style-Her-King-Bracelet-for-Men-Gift-(MB-01)-121-Gift-Items_1650868237109.png",
+              "sell_price": 675,
+              "discount": 0,
+              "superOffer": false,
+              "slug": "Romantic-Style-Her-King-Bracelet-for-Men-Gift-(MB-01)-Gift-Items",
+              "name": "Romantic Style Her King Bracelet for Men Gift (MB-01)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            },
+            {
+              "_id": "6266404209e5ee4c31cdfbdf",
+              "product_code": "121",
+              "bar_code": "",
+              "thumbnail": "https://cdn.selfeb.com/images/view/images_Stylish-Teens-Super-Trendy-Leaves-Design-Ring-for-Women-and-Girls-(FR-16)-121-Gift-Items_1650868335025.png",
+              "sell_price": 675,
+              "discount": 20,
+              "superOffer": true,
+              "slug": "Ring-for-Women-Ladies-Elegant-Retro-Metal-Ring-Wedding-Engagement-Jewelry-(FR-116)-Gift-Items",
+              "name": "Stylish Teens Super Trendy Leaves Design Ring for Women and Girls (FR-16)",
+              "rating": {
+                "score": 0,
+                "total": 0
+              }
+            }
+          ]
+        },
+        {
+          "cate_name": "Sub Grocery",
+          "products": []
+        },
+        {
+          "cate_name": "Child Grocery",
+          "products": []
+        },
+        {
+          "cate_name": "Sub Men's Fashion",
+          "products": []
+        },
+        {
+          "cate_name": "Child Men's Fashion",
+          "products": []
+        },
+        {
+          "cate_name": "Women's",
+          "products": []
+        }
+      ]

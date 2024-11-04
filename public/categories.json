@@ -1,0 +1,85 @@
+[
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Gift_Items_1650597643567.png",
+        "name": "Gift Items",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Home_Decor_and_Lifestyle_1650597626731.jpeg",
+        "name": "Home Decor and Lifestyle",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Women's_Fashion_1650597571699.jpeg",
+        "name": "Women's Fashion",
+        "subCategories": [
+          {
+            "logo_url": "",
+            "_id": "62ad5af6a4a73f5179d7ba32",
+            "name": "Women's",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Men's_Fashion_1650597549316.jpeg",
+        "name": "Men's Fashion",
+        "subCategories": [
+          {
+            "logo_url": "",
+            "_id": "62ad4a09a4a73f5179d7b690",
+            "name": "Sub Men's Fashion",
+            "childs": [
+              {
+                "logo_url": "",
+                "_id": "62ad4a1ba4a73f5179d7b699",
+                "name": "Child Men's Fashion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__Electronics_and_Appliances_1650597506526.jpeg",
+        "name": " Electronics and Appliances",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Vehicles_and_Automobiles_1650597480556.jpeg",
+        "name": "Vehicles and Automobiles",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__Computer_and_Accessories_1650597440997.jpeg",
+        "name": " Computer and Accessories",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image__Mobile_and_Accessories_1650597413848.jpeg",
+        "name": " Mobile and Accessories",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Babies_and_Toys_1650597372147.jpeg",
+        "name": "Babies and Toys",
+        "subCategories": []
+      },
+      {
+        "logo_url": "https://cdn.selfeb.com/images/view/images_category_image_Grocery_1650597346793.jpeg",
+        "name": "Grocery",
+        "subCategories": [
+          {
+            "logo_url": "",
+            "_id": "62ad49dba4a73f5179d7b67f",
+            "name": "Sub Grocery",
+            "childs": [
+              {
+                "logo_url": "",
+                "_id": "62ad49e4a4a73f5179d7b688",
+                "name": "Child Grocery"
+              }
+            ]
+          }
+        ]
+      }
+    ]

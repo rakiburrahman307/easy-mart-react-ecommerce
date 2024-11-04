@@ -1,0 +1,31 @@
+.image-loader-container {
+    /* background-color: rgba(189, 204, 206, 0.733); */
+    background-color: #fff;
+    /* border: 1px solid #f7f7f7; */
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.image-loader-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.image-loader-img.thumb {
+    opacity: 1;
+    filter: blur(10px);
+    transition: opacity 1s ease-out;
+    position: absolute;
+}
+.image-loader-img.thumb.isLoaded {
+    opacity: 0;
+}
+.image-loader-img.isLoaded {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+}

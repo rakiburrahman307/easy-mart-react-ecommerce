@@ -1,0 +1,44 @@
+.easy-mart-manage-product-modal {
+    z-index: 999 !important;
+}
+.modal-backdrop{
+    z-index: 990 !important;
+}
+.easy-mart-edit-products{
+      width: 100%;
+  }
+  .easy-mart-edit-products input, .easy-mart-edit-products select{
+      width: 100%;
+      /* border: 1px solid #1976d2; */
+      box-sizing: border-box;
+      border-radius: 6px;
+      /* color: #1976d2; */
+      padding:6px 8px;
+      font-size:14px;
+      outline: none;
+      margin-bottom: 15px;
+  }
+
+.easy-mart-edit-products input::-webkit-outer-spin-button,
+.easy-mart-edit-products input::-webkit-inner-spin-button { 
+      -webkit-appearance: none;
+      margin: 0;
+}
+/* Firefox */ 
+.easy-mart-edit-products input[type="number"] { 
+      -moz-appearance: textfield; 
+}
+  
+  .easy-mart-edit-products input:hover, .easy-mart-edit-products input:active{
+      /* border: 1px solid #1976d2; */
+      transition: 1s;
+  }
+  
+  .easy-mart-edit-products::placeholder {
+      color: #a5a5a5;
+  }
+  @media only screen and (min-width: 280px) and (max-width:992px) {
+      .easy-mart-edit-products input{
+          width: 95%;
+      }
+  }

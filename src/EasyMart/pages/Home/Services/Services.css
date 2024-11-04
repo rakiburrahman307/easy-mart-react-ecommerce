@@ -1,0 +1,42 @@
+.easy-mart-services-container{
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    border-radius: 8px;
+}
+
+.easy-mart-services-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.easy-mart-services-list .easy-mart-services {
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2px;
+    padding: 10px 5px;
+    margin: 0 auto;
+    color: #1b1b28;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.easy-mart-services-list .easy-mart-services h4 {
+    color: #0B2B3C;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+@media only screen and (min-width: 450px) and (max-width: 1200px) {
+    .easy-mart-services-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:450px) {
+    .easy-mart-services-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

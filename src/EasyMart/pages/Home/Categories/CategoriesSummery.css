@@ -1,0 +1,110 @@
+.easy-mart-categories-summery{
+    text-align: center;
+    background: #fff;
+    /* border: 1px solid #e1dcdc; */
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 8%);
+    overflow: hidden;
+    /* cursor: pointer; */
+}
+.easy-mart-categories-summery:hover{
+    /* border: 1px solid transparent; */
+    /* box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%) !important; */
+    box-shadow: 0 2px 7px grey;
+}
+.easy-mart-categories-summery .image{
+   width: 220px;
+   height: 220px;
+   margin: 0 auto;
+   position: relative;
+}
+.easy-mart-categories-summery .hover-box{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    left: -155px;
+}
+.easy-mart-categories-summery:hover .hover-box{
+    opacity: 0.6;
+    transition: 1s;
+}
+.easy-mart-categories-summery .image img{
+    width: 100%;
+    /* height: 100%; */
+}
+.easy-mart-categories-summery .sale-badge{
+    width: 45px;
+    height: 25px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.easy-mart-categories-summery-content{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.easy-mart-categories-summery-content h4 {
+    /* color: #0B2B3C;
+    font-weight: 500; */
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 35px;
+}
+.easy-mart-categories-summery .product-btn {
+    padding: 5px 0px;
+    width: 130px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px -15px;
+    cursor: pointer;
+}
+.easy-mart-categories-summery .product-btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .easy-mart-categories-summery .image{
+        width: 190px;
+        height: 190px;
+     }
+}
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+    .easy-mart-categories-summery{
+        margin-bottom: 10px
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .easy-mart-categories-summery .image{
+        width: 170px;
+        height: 170px;
+     }
+}
+
+
+

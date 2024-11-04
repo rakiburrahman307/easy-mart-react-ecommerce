@@ -1,0 +1,57 @@
+.easy-mart-offers-container {
+  padding: 18px 20px 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+  background-color: #fff;
+  border-radius: 8px;
+}
+/* .easy-mart-offers-container h3{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+} */
+.easy-mart-offers-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.easy-mart-offers {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.easy-mart-offers-btn {
+  padding: 5px 20px;
+  border-radius: 3px;
+  /* background-color: var(--color10) ; */
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .easy-mart-categories-container {
+    padding: 0px 20px;
+  }
+  .easy-mart-offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .easy-mart-offers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .easy-mart-offers-title button {
+    width: 130px;
+    font-size: 13px;
+  }
+  .easy-mart-offers-title img {
+    width: 30% !important;
+  }
+}
