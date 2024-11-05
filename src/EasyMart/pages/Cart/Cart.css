@@ -70,9 +70,9 @@
   .easy-mart-cart-container .continue-shopping {
     width: 100%;
   }
-  .easy-mart-cart-container .easy-mart-cart-info .name {
+  /* .easy-mart-cart-container .easy-mart-cart-info .name {
     display: none !important;
-  }
+  } */
 }
 @media only screen and (min-width: 0px) and (max-width: 430px) {
   .easy-mart-cart-container {

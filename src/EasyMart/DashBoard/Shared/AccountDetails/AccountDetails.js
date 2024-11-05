@@ -197,7 +197,7 @@ const Checkout = () => {
                 className='create-vendors'
                 style={{ color: getStarting?.primaryColor }}
               >
-                Migrate to Vendor
+                Become a Seller
               </p>
             )}
 

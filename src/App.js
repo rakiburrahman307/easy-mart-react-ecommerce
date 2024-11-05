@@ -15,8 +15,8 @@ function App() {
     deliveryCharge: 100,
     email: "easymart@gmail.com",
     logo: "https://i.ibb.co/Xk7sdfL/01.png",
-    phone: "+8801730258276",
-    primaryColor: "#009688"
+    phone: "+8801700000000",
+    primaryColor: "#009688",
   };
   localStorage.setItem("starting", JSON.stringify(data));
   const getStarting = JSON.parse(localStorage.getItem("starting"));
@@ -46,13 +46,12 @@ function App() {
       position: "center",
       icon: "question",
       title: "No Internet?",
-      text:
-        "No Internet connection. Make sure Wi-Fi or cellular data is turned on, then try again",
+      text: "No Internet connection. Make sure Wi-Fi or cellular data is turned on, then try again",
       showConfirmButton: false,
       allowOutsideClick: false,
       denyButtonColor: "#ff2525",
       showDenyButton: true,
-      denyButtonText: `Retry`
+      denyButtonText: `Retry`,
     }).then((result) => {
       window.location.reload();
     });
@@ -71,11 +70,11 @@ function App() {
             style={{
               color: `${getStarting?.primaryColor || "#157ed2"}`,
               width: "100vw",
-              height: "100vh"
+              height: "100vh",
             }}
-            className="d-flex align-items-center justify-content-center"
+            className='d-flex align-items-center justify-content-center'
           >
-            <Spinner animation="border" />
+            <Spinner animation='border' />
           </div>
         }
       >

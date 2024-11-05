@@ -17,7 +17,7 @@ const Orders = () => {
 
     return (
         <div className="tmp-user-orders-container">
-            <h3>Orders</h3>
+            <h3>My Orders</h3>
             {
                 userOrder?.length === 0 ?
                 <div className="text-center">

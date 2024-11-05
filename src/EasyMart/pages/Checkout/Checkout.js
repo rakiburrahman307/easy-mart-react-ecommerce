@@ -122,6 +122,7 @@ const Checkout = () => {
         data.order_status = 1;
         if(vendorUser?.vendors_name){
             data.vendors_name = vendorUser?.vendors_name
+            data.vendorUser = true;
         }
 
         fetch('http://localhost:5000/orders', {
