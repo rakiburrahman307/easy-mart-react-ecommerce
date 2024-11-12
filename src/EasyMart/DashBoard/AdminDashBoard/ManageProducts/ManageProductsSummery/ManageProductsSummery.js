@@ -31,7 +31,7 @@ const ManageProductsSummery = (props) => {
             confirmButtonText: 'Yes, delete it!'
           }).then((result) => {
           if (result.isConfirmed) {
-                    const url = `http://localhost:5000/product/delete/${cateName}/${id}`;
+                    const url = `https://easymartbackend.vercel.app/product/delete/${cateName}/${id}`;
                     fetch(url, {
                         method: 'PUT'
                     })

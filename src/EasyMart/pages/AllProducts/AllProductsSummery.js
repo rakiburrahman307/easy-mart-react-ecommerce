@@ -71,9 +71,10 @@ const AllProductsSummery = (props) => {
         <h4>
           <span
             className='badge rounded-pill'
-            style={{ fontSize: "14px",background: `${getStarting?.primaryColor}` }}
+            style={{ fontSize: "14px",background: `${getStarting?.primaryColor}`, display:"inline-flex" }}
           >
-            {cate_name}
+            {cate_name.length > 10 ? cate_name.substring(0, 10) + "..." : cate_name}
+
           </span>
         </h4>
 

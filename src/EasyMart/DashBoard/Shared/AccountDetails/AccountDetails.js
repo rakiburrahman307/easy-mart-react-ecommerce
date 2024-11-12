@@ -14,7 +14,7 @@ const Checkout = () => {
   const [ifVendor, setIfVendor] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://easymartbackend.vercel.app/users")
       .then((res) => res.json())
       .then((data) => {
         const updateUser = data?.find((result) => result.email === user.email);
@@ -48,7 +48,7 @@ const Checkout = () => {
       userData = data;
     }
 
-    fetch(`http://localhost:5000/users/${data?._id}`, {
+    fetch(`https://easymartbackend.vercel.app/users/${data?._id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -68,7 +68,7 @@ const Checkout = () => {
           setUserInfo(userData);
         }
 
-        fetch("http://localhost:5000/vendors", {
+        fetch("https://easymartbackend.vercel.app/vendors", {
           method: "POST",
           body: formData,
         })

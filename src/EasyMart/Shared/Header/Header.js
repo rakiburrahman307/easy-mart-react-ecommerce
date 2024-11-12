@@ -247,8 +247,8 @@ const Header = () => {
                                   src={product.thumbnail} // Ensure thumbnail is the correct path
                                   alt={product.name}
                                   style={{
-                                    width: "40px",
-                                    height: "40px",
+                                    width: "30px",
+                                    height: "35px",
                                     objectFit: "cover", // Ensures image covers the area
                                   }}
                                 />

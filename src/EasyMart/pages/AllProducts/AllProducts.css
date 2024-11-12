@@ -72,6 +72,39 @@
     align-items: center;
     justify-content: space-around;
 }
+.custom-dropdown {
+    margin: 20px; /* Add spacing around the dropdown */
+  }
+  
+  .custom-toggle {
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .custom-toggle:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .custom-menu {
+    border-radius: 5px; /* Rounded corners for menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .custom-menu .dropdown-item {
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .custom-menu .dropdown-item:hover {
+    background-color: #d3d3d3; /* Light background on hover */
+  }
+  #dropdown-basic:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 @media only screen and (min-width: 992px) and (max-width:1240px) {
     .tmp-search-container input[type="range"] {
         width:100px;
@@ -130,6 +163,14 @@
         grid-gap: 10px;
         margin-left: 0%;
     }
+    /* Dropdown styling for mobile */
+.custom-toggle {
+    padding: 12px 20px; /* Larger tap area */
+}
+
+.custom-menu .dropdown-item {
+    padding: 8px 15px; /* Improved touch target on mobile */
+}
 }
 
 

@@ -43,7 +43,7 @@ const CategoriesSummery = (props) => {
       </div>
       <div className='easy-mart-categories-summery-content'>
         <h4 onClick={handleProductDetails}>{name}</h4>
- 
+
         <div className='d-flex align-items-center justify-content-center'>
           {discount > 0 && (
             <>
