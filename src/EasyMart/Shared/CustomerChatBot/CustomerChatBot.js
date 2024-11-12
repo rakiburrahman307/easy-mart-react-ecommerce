@@ -99,7 +99,7 @@ const CustomerChatBot = () => {
     {
       id: "6",
       message:
-        "We accept all major credit/debit cards, and BiKash, Nagat transfers. Your payment is securely processed. Do you need more information?",
+        "We accept all major credit/debit cards, and BKash, Nagat transfers. Your payment is securely processed. Do you need more information?",
       trigger: "11",
     },
     {
@@ -112,7 +112,7 @@ const CustomerChatBot = () => {
     {
       id: "12",
       message:
-        "You can choose to pay via secure gateways like Stripe and PayPal. All your information is encrypted and safe. 💳",
+        "You can choose to pay via secure gateways like Stripe and Bkash. All your information is encrypted and safe. 💳",
       trigger: "2",
     },
     {
@@ -157,7 +157,14 @@ const CustomerChatBot = () => {
 
   return (
     <ThemeProvider theme={CHATBOT_THEME}>
-      <ChatBot steps={steps} floating={true} style={{ zIndex: 9999 }} />
+      <ChatBot
+       headerTitle="Easy Mart Customer Service"
+      //  botAvatar="path/to/your-bot-avatar.png"
+      //  userAvatar="path/to/your-user-avatar.png"
+       steps={steps} 
+       floating={true} 
+       style={{ zIndex: 9999 }}
+        />
     </ThemeProvider>
   );
 };

@@ -1,7 +1,6 @@
-
-    @media (max-width: 480px) {
-        .hzcrjt {
-            left: 20px  !important ;
-            bottom: 55px !important ;
-        }
+@media (max-width: 600px) {
+    .hzcrjt {
+        left: 20px !important;
+        bottom: 55px !important;
     }
+}
