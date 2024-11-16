@@ -50,8 +50,7 @@ const CustomerChatBot = () => {
         { value: 3, label: "Return & Refund Policy", trigger: "7" },
         { value: 4, label: "Track My Order", trigger: "8" },
         { value: 5, label: "Talk to Customer Support", trigger: "9" },
-        { value: 6, label: "Tell me a joke!", trigger: "joke" },
-        { value: 7, label: "Ask something else", trigger: "askSomething" }, // Option for custom user input
+        { value: 6, label: "Ask something else", trigger: "askSomething" }, // Option for custom user input
       ],
     },
     {
@@ -146,25 +145,18 @@ const CustomerChatBot = () => {
         "Our support team is here to help! You can reach us via email at support@easymart.com or chat with a live agent for immediate assistance.",
       trigger: "2",
     },
-    // Fun interaction: Joke
-    {
-      id: "joke",
-      message:
-        "Sure! Here's a joke for you: Why don't skeletons fight each other? Because they don't have the guts! 😂",
-      trigger: "2",
-    },
   ];
 
   return (
     <ThemeProvider theme={CHATBOT_THEME}>
       <ChatBot
-       headerTitle="Easy Mart Customer Service"
-      //  botAvatar="path/to/your-bot-avatar.png"
-      //  userAvatar="path/to/your-user-avatar.png"
-       steps={steps} 
-       floating={true} 
-       style={{ zIndex: 9999 }}
-        />
+        headerTitle='Customer Support'
+        //  botAvatar="path/to/your-bot-avatar.png"
+        //  userAvatar="path/to/your-user-avatar.png"
+        steps={steps}
+        floating={true}
+        style={{ zIndex: 9999 }}
+      />
     </ThemeProvider>
   );
 };
