@@ -204,35 +204,57 @@ const useProducts = () => {
 
   // Category
   const handleCategoriesCheckbox = (ctName) => {
-    setCategoriesCheckbox((prev) => {
-      const newArray = prev.includes(ctName)
-        ? prev.filter((item) => item !== ctName) // Remove if already in array
-        : [...prev, ctName]; // Add if not in array
-
-      setSelectedCategory(newArray.length > 0 ? ctName : ""); // Update selected category
-      return newArray;
-    });
+    let newArray = [];
+    if (categoriesCheckbox?.length === 0) {
+      newArray.push(ctName);
+      setSelectedCategory(ctName);
+    } else {
+      const findData = categoriesCheckbox?.find((pd) => pd === ctName);
+      if (findData === ctName) {
+        const removeData = categoriesCheckbox.filter((pd) => pd !== ctName);
+        newArray.push(...removeData);
+        setSelectedCategory("");
+      } else {
+        newArray.push(...categoriesCheckbox, ctName);
+        setSelectedCategory(ctName);
+      }
+    }
+    setCategoriesCheckbox(newArray);
   };
 
-  // Brand
   const handleBrandsCheckbox = (brandName) => {
-    setBrandsCheckbox((prev) => {
-      const newArray = prev.includes(brandName)
-        ? prev.filter((item) => item !== brandName) // Remove if already in array
-        : [...prev, brandName]; // Add if not in array
-
-      setSelectedBrands(newArray.length > 0 ? brandName : ""); // Update selected brand
-      return newArray;
-    });
+    let newArray = [];
+    if (brandsCheckbox?.length === 0) {
+      newArray.push(brandName);
+      setSelectedBrands(brandName);
+    } else {
+      const findData = brandsCheckbox?.find((pd) => pd === brandName);
+      if (findData === brandName) {
+        const removeData = brandsCheckbox.filter((pd) => pd !== brandName);
+        newArray.push(...removeData);
+        setSelectedBrands("");
+      } else {
+        newArray.push(...brandsCheckbox, brandName);
+        setSelectedBrands(brandName);
+      }
+    }
+    setBrandsCheckbox(newArray);
   };
 
-  // Vendor
   const handleVendorsCheckbox = (vendorName) => {
-    setVendorsCheckbox((prev) => {
-      return prev.includes(vendorName)
-        ? prev.filter((item) => item !== vendorName) // Remove if already in array
-        : [...prev, vendorName]; // Add if not in array
-    });
+    let newArray = [];
+    if (vendorsCheckbox?.length === 0) {
+      newArray.push(vendorName);
+    } else {
+      const findData = vendorsCheckbox?.find((pd) => pd === vendorName);
+      if (findData === vendorName) {
+        const removeData = vendorsCheckbox.filter((pd) => pd !== vendorName);
+        newArray.push(...removeData);
+      } else {
+        newArray.push(...vendorsCheckbox, vendorName);
+      }
+    }
+    setVendorsCheckbox(newArray);
   };
 
   // -------------------------------------------------------------------------
@@ -332,17 +354,20 @@ const useProducts = () => {
   const handleAddToCart = (product, colorId) => {
     const newCart = [...cart];
     const existingIndex = newCart.findIndex((c) => c._id === product._id);
-  
+
     // Step 1: Calculate cart quantity for this product
-    const cartQuantity = existingIndex >= 0 ? newCart[existingIndex].quantity : 0;
-  
+    const cartQuantity =
+      existingIndex >= 0 ? newCart[existingIndex].quantity : 0;
+
     // Step 2: Calculate dynamic available stock
     const availableStock = product.stock - cartQuantity;
-  
+
     // Step 3: Check stock availability
     if (newQuantity > availableStock) {
       toast.warn(
-        `Only ${availableStock > 0 ? availableStock : 0} units available in stock!`,
+        `Only ${
+          availableStock > 0 ? availableStock : 0
+        } units available in stock!`,
         {
           position: toast.POSITION.TOP_RIGHT,
           autoClose: 5000,
@@ -358,7 +383,7 @@ const useProducts = () => {
       });
       return;
     }
-  
+
     // Step 5: Update cart
     if (existingIndex >= 0) {
       // Update existing product quantity in cart
@@ -369,28 +394,28 @@ const useProducts = () => {
       const newItem = { ...product, quantity: newQuantity, color_id: colorId };
       newCart.push(newItem);
     }
-  
+
     // Step 6: Update cart state and storage
     setCart(newCart);
     localStorage.setItem("shopping_cart", JSON.stringify(newCart));
-  
+
     // Reset input quantity
     setNewQuantity(1);
-  
+
     // Notify user
     toast.success("Product was added successfully!", {
       position: toast.POSITION.TOP_RIGHT,
       autoClose: 5000,
     });
   };
-  
+
   const handleMinusToCart = (product) => {
     const newCart = [...cart];
     const existingIndex = newCart.findIndex((c) => c._id === product._id);
-  
+
     if (existingIndex >= 0) {
       const currentQuantity = newCart[existingIndex].quantity;
-  
+
       // Step 1: Reduce quantity by 1 or remove if it reaches 0
       if (currentQuantity > 1) {
         newCart[existingIndex].quantity -= 1;
@@ -398,11 +423,11 @@ const useProducts = () => {
         // Remove product from cart
         newCart.splice(existingIndex, 1);
       }
-  
+
       // Step 2: Update cart
       setCart(newCart);
       localStorage.setItem("shopping_cart", JSON.stringify(newCart));
-  
+
       toast.success("Product quantity updated!", {
         position: toast.POSITION.TOP_RIGHT,
         autoClose: 5000,
@@ -414,9 +439,6 @@ const useProducts = () => {
       });
     }
   };
-  
-
-
 
   // Delete Product
   const handleRemove = (_id) => {
