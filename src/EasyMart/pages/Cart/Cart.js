@@ -16,7 +16,7 @@ const Cart = () => {
     getStarting,
     handleClearAllProductsPage,
   } = useAuth();
-
+console.log(cart);
   let cartLength = 0;
   let cartPrice = 0;
   let offerPrice = 0;

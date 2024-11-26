@@ -329,44 +329,94 @@ const useProducts = () => {
   // -------------------------------------------------------------------------
   // handleAddToCart
   // -------------------------------------------------------------------------
-
   const handleAddToCart = (product, colorId) => {
     const newCart = [...cart];
     const existingIndex = newCart.findIndex((c) => c._id === product._id);
+  
+    // Step 1: Calculate cart quantity for this product
+    const cartQuantity = existingIndex >= 0 ? newCart[existingIndex].quantity : 0;
+  
+    // Step 2: Calculate dynamic available stock
+    const availableStock = product.stock - cartQuantity;
+  
+    // Step 3: Check stock availability
+    if (newQuantity > availableStock) {
+      toast.warn(
+        `Only ${availableStock > 0 ? availableStock : 0} units available in stock!`,
+        {
+          position: toast.POSITION.TOP_RIGHT,
+          autoClose: 5000,
+        }
+      );
+      return;
+    }
+    // Step 4: Check max quantity per product
+    if (cartQuantity + newQuantity > 5) {
+      toast.warn("Maximum of 5 units per product allowed!", {
+        position: toast.POSITION.TOP_RIGHT,
+        autoClose: 5000,
+      });
+      return;
+    }
+  
+    // Step 5: Update cart
     if (existingIndex >= 0) {
-      newCart[existingIndex].quantity =
-        newCart[existingIndex].quantity + newQuantity;
+      // Update existing product quantity in cart
+      newCart[existingIndex].quantity += newQuantity;
       newCart[existingIndex].color_id = colorId;
     } else {
-      product.quantity = newQuantity;
-      product.color_id = colorId;
-      newCart.push(product);
+      // Add new product to cart
+      const newItem = { ...product, quantity: newQuantity, color_id: colorId };
+      newCart.push(newItem);
     }
+  
+    // Step 6: Update cart state and storage
     setCart(newCart);
     localStorage.setItem("shopping_cart", JSON.stringify(newCart));
+  
+    // Reset input quantity
     setNewQuantity(1);
+  
+    // Notify user
     toast.success("Product was added successfully!", {
       position: toast.POSITION.TOP_RIGHT,
       autoClose: 5000,
     });
   };
-
-  // Product quantity delete to cart
+  
   const handleMinusToCart = (product) => {
     const newCart = [...cart];
     const existingIndex = newCart.findIndex((c) => c._id === product._id);
+  
     if (existingIndex >= 0) {
-      let newMinusQuantity = newCart[existingIndex].quantity - 1;
-      if (newMinusQuantity === 0) {
-        // newCart.splice(existingIndex,1);
+      const currentQuantity = newCart[existingIndex].quantity;
+  
+      // Step 1: Reduce quantity by 1 or remove if it reaches 0
+      if (currentQuantity > 1) {
+        newCart[existingIndex].quantity -= 1;
       } else {
-        newCart[existingIndex].quantity = newMinusQuantity;
-        // newCart[existingIndex].quantity = newCart[existingIndex].quantity - 1;
+        // Remove product from cart
+        newCart.splice(existingIndex, 1);
       }
+  
+      // Step 2: Update cart
+      setCart(newCart);
+      localStorage.setItem("shopping_cart", JSON.stringify(newCart));
+  
+      toast.success("Product quantity updated!", {
+        position: toast.POSITION.TOP_RIGHT,
+        autoClose: 5000,
+      });
+    } else {
+      toast.error("Product not found in the cart!", {
+        position: toast.POSITION.TOP_RIGHT,
+        autoClose: 5000,
+      });
     }
-    setCart(newCart);
-    localStorage.setItem("shopping_cart", JSON.stringify(newCart));
   };
+  
+
+
 
   // Delete Product
   const handleRemove = (_id) => {
