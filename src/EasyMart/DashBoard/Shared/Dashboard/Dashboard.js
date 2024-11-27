@@ -187,6 +187,20 @@ const Dashboard = () => {
                   Make Admin
                 </button>
               </Link>
+              <Link to='/dashboard/coupon'>
+                <button
+                  style={{
+                    background: selectedButton === 14 ? selectedColor : "#fff",
+                    color:
+                      selectedButton === 14
+                        ? getStarting?.primaryColor
+                        : "#000",
+                  }}
+                  onClick={() => setSelectedButton(14)}
+                >
+                  Manage Coupon
+                </button>
+              </Link>
               <br />
             </div>
           )}

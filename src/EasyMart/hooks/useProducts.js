@@ -73,7 +73,7 @@ const useProducts = () => {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    fetch("https://easymartbackend.vercel.app/products")
+    fetch("http://localhost:5000/products")
       .then((res) => res.json())
       .then((data) => {
         setCategoriesProducts(data);
@@ -103,7 +103,7 @@ const useProducts = () => {
   }, [products]);
 
   const handleAllCategory = () => {
-    fetch("https://easymartbackend.vercel.app/categories")
+    fetch("http://localhost:5000/categories")
       .then((res) => res.json())
       .then((data) => {
         setCategories(data);
@@ -123,7 +123,7 @@ const useProducts = () => {
   };
 
   const handleAllBrands = () => {
-    fetch("https://easymartbackend.vercel.app/brands")
+    fetch("http://localhost:5000/brands")
       .then((res) => res.json())
       .then((data) => {
         setBrands(data);
@@ -143,7 +143,7 @@ const useProducts = () => {
   };
 
   const handleAllVendors = () => {
-    fetch("https://easymartbackend.vercel.app/vendors")
+    fetch("http://localhost:5000/vendors")
       .then((res) => res.json())
       .then((data) => {
         setVendors(data);
@@ -448,7 +448,7 @@ const useProducts = () => {
   };
 
   const handleProductOrders = () => {
-    fetch("https://easymartbackend.vercel.app/orders")
+    fetch("http://localhost:5000/orders")
       .then((res) => res.json())
       .then((result) => {
         setTotalOrder(result);
@@ -464,7 +464,7 @@ const useProducts = () => {
   };
 
   useEffect(() => {
-    fetch("https://easymartbackend.vercel.app/message")
+    fetch("http://localhost:5000/message")
       .then((res) => res.json())
       .then((data) => setMessages(data))
       .catch((error) => {
@@ -583,7 +583,7 @@ const useProducts = () => {
   }, [auth]);
 
   useEffect(() => {
-    fetch(`https://easymartbackend.vercel.app/users/${user.email}`)
+    fetch(`http://localhost:5000/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => {
         setAdmin(data.admin);
@@ -607,7 +607,7 @@ const useProducts = () => {
 
   const saveUser = (email, displayName, phoneNumber, method) => {
     const user = { email, displayName, phoneNumber };
-    fetch("https://easymartbackend.vercel.app/users", {
+    fetch("http://localhost:5000/users", {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -622,7 +622,7 @@ const useProducts = () => {
   };
 
   useEffect(() => {
-    fetch("https://easymartbackend.vercel.app/users")
+    fetch("http://localhost:5000/users")
       .then((res) => res.json())
       .then((result) => {
         setUserList(result);

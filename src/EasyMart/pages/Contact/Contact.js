@@ -11,7 +11,7 @@ const Contact = () => {
     document.title = 'Contact Us';
 
     const onSubmit = data => {
-        fetch('https://easymartbackend.vercel.app/message', {
+        fetch('http://localhost:5000/message', {
             method: 'POST',
             headers: { 'content-type': 'application/json'},
             body: JSON.stringify(data)

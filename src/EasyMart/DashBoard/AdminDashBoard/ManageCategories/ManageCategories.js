@@ -28,7 +28,7 @@ const ManageCategories = () => {
                   "subCategories": []
             }
 
-            fetch('https://easymartbackend.vercel.app/categories', {
+            fetch('http://localhost:5000/categories', {
                   method: 'POST',
                   headers: {
                         'content-type': 'application/json'
@@ -63,7 +63,7 @@ const ManageCategories = () => {
                   confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
             if (result.isConfirmed) {
-                        const url = `https://easymartbackend.vercel.app/categories/${id}`;
+                        const url = `http://localhost:5000/categories/${id}`;
                         fetch(url, {
                         method: 'DELETE'
                         })

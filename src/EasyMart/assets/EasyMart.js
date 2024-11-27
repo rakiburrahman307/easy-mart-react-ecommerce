@@ -37,6 +37,7 @@ import SuccessPayment from '../pages/Payment/SuccessPayment';
 import ProductsDetails from '../pages/ProductsDetails/ProductsDetails';
 import ProductsVendors from '../pages/ProductsVendors/ProductsVendors';
 import './EasyMart.css';
+import ManageCoupon from '../DashBoard/AdminDashBoard/ManageCoupon/ManageCoupon';
 
 
 const getFromLocalStorageStarting = () => {
@@ -78,6 +79,7 @@ const EasyMart = () => {
                     <Route path="/dashboard/managevendors" element={<AdminRoute><ManageVendors/></AdminRoute>}></Route>
                     <Route path="/dashboard/manageuser" element={<AdminRoute><ManageUsers/></AdminRoute>}></Route>
                     <Route path="/dashboard/makeadmin" element={<AdminRoute><MakeAdmin/></AdminRoute>}></Route>
+                    <Route path="/dashboard/coupon" element={<AdminRoute><ManageCoupon/></AdminRoute>}></Route>
                 </Route>
                 <Route path="/payment/success" element={<PrivateRoute><SuccessPayment/></PrivateRoute>}></Route>
                 <Route path="/payment/error/:errorMessage" element={<PrivateRoute><ErrorPayment/></PrivateRoute>}></Route>

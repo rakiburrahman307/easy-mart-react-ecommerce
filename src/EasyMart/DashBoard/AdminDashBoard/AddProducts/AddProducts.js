@@ -35,6 +35,7 @@ const AddProducts = () => {
             "bar_code": data.bar_code,
             "sell_price": parseInt(data.sell_price),
             "discount": parseInt(data.discount),
+            "stock": parseInt(data.stock),
             "superOffer": data.discount > 0 ?  true : false,
             "slug": `${data.name.replace(/\s/g, '-')}-${data.cate_name.replace(/\s/g, '-')}`,
             "thumbnail": data.thumbnail,
@@ -51,7 +52,7 @@ const AddProducts = () => {
             addData = productsObject;
         }
 
-        fetch(`https://easymartbackend.vercel.app/product/add/${categoriesPd?.cate_name}`, {
+        fetch(`http://localhost:5000/product/add/${categoriesPd?.cate_name}`, {
             method: 'PUT',
             headers: { 'content-type': 'application/json'},
             body: JSON.stringify(addData)
@@ -142,6 +143,7 @@ const AddProducts = () => {
                         <input placeholder="Please Type Bar Code" {...register("bar_code")} required/>
                         <input type="number" placeholder="Please Type Sell Price" {...register("sell_price")} required/>
                         <input type="number" placeholder="Please Type Discount" {...register("discount")} required/>
+                        <input type="number" placeholder="Please Type Total Stock" {...register("stock")} required/>
                         {/* <input placeholder="Please Type Km" {...register("superOffer")} required/> */}
                         {/* <input placeholder="Please Type Manual" {...register("slug")} required/> */}
                         <input placeholder="Please Type Image Link" {...register("thumbnail")} required/>

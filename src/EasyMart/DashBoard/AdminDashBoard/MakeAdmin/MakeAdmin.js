@@ -15,7 +15,7 @@ const MakeAdmin = () => {
     const [adminList, setAdminList] = useState([])
 
     const onSubmit = data => {
-        fetch('https://easymartbackend.vercel.app/users/admin', {
+        fetch('http://localhost:5000/users/admin', {
             method: 'PUT',
             headers: { 
                   'authorization': `Bearer ${token}`,
@@ -31,7 +31,7 @@ const MakeAdmin = () => {
                     autoClose: 5000,
                 });
 
-                  fetch("https://easymartbackend.vercel.app/users")
+                  fetch("http://localhost:5000/users")
                   .then(res => res.json())
                   .then(result => {
                         const adminUser = result?.filter(data => data?.role === 'admin');
@@ -61,7 +61,7 @@ const MakeAdmin = () => {
     }, [userList])
 
     const handleRemoveAdmin = (id) => {
-      // fetch(`https://easymartbackend.vercel.app/users/${id}`, {
+      // fetch(`http://localhost:5000/users/${id}`, {
       //   method: "DELETE",
       // })
       // .then(res => res.json())

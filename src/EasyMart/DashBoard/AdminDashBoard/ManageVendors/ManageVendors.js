@@ -24,7 +24,7 @@ const ManageVendors = () => {
             confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
             if (result.isConfirmed) {
-                        const url = `https://easymartbackend.vercel.app/vendors/${id}`;
+                        const url = `http://localhost:5000/vendors/${id}`;
                         fetch(url, {
                         method: 'DELETE'
                         })

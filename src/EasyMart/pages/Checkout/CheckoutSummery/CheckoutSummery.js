@@ -71,7 +71,7 @@ const CheckoutSummery = ({cartPrice, discount, newTotalPrice, couponText, coupon
                                     {
                                         !couponApplied ? 
                                         <>
-                                            <input value={couponValue} type="text" onChange={(e) => setCouponValue(e.target.value)} placeholder="Coupon-code" style={{border: `1px solid ${getStarting.primaryColor}`}}/>
+                                            <input type="text" onChange={(e) => setCouponValue(e.target.value)} placeholder="Coupon-code" style={{border: `1px solid ${getStarting.primaryColor}`}}/>
                                             <button type="button" className="check-btn" onClick={() => handleCoupon(couponValue, couponText, cartPrice)} style={{background: getStarting.primaryColor}}>Check</button>
                                         </>
                                         :
