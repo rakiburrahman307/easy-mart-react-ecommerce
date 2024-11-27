@@ -24,7 +24,7 @@ const ManageBrands = () => {
         "name": data?.name
      }
 
-        fetch('https://easymartbackend.vercel.app/brands', {
+        fetch('http://localhost:5000/brands', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -42,7 +42,7 @@ const ManageBrands = () => {
 
 
 
-                  // fetch("https://easymartbackend.vercel.app/users")
+                  // fetch("http://localhost:5000/users")
                   // .then(res => res.json())
                   // .then(result => {
                   //       const adminUser = result?.filter(data => data?.role === 'admin');
@@ -79,7 +79,7 @@ const ManageBrands = () => {
           confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
         if (result.isConfirmed) {
-                  const url = `https://easymartbackend.vercel.app/brands/${id}`;
+                  const url = `http://localhost:5000/brands/${id}`;
                   fetch(url, {
                       method: 'DELETE'
                   })

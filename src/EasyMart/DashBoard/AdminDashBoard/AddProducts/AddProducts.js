@@ -52,7 +52,7 @@ const AddProducts = () => {
             addData = productsObject;
         }
 
-        fetch(`https://easymartbackend.vercel.app/product/add/${categoriesPd?.cate_name}`, {
+        fetch(`http://localhost:5000/product/add/${categoriesPd?.cate_name}`, {
             method: 'PUT',
             headers: { 'content-type': 'application/json'},
             body: JSON.stringify(addData)

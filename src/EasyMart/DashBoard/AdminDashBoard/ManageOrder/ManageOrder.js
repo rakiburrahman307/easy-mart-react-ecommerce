@@ -41,7 +41,7 @@ const ManageOrder = () => {
 
   const handleUpdateStatus = (id, status) => {
     const updateStatus = parseInt(status);
-    const url = `https://easymartbackend.vercel.app/orders/${id}`;
+    const url = `http://localhost:5000/orders/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

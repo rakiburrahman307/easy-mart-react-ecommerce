@@ -30,7 +30,7 @@ const MessageDetails = () => {
                   confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
             if (result.isConfirmed) {
-                        const url = `https://easymartbackend.vercel.app/message/${id}`;
+                        const url = `http://localhost:5000/message/${id}`;
                         fetch(url, {
                         method: 'DELETE'
                         })

@@ -8,7 +8,6 @@ import useAuth from "../../../hooks/useAuth";
 import ImageLoader from "../../../Shared/ImageLoader/ImageLoader";
 
 const TodayProductsSummery = (props) => {
-  console.log(props);
   const { thumbnail, name, sell_price, rating, slug, discount, cate_name } =
     props.product;
   const { handleAddToCart, getStarting } = useAuth();

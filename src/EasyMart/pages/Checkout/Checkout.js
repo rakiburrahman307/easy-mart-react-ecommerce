@@ -137,7 +137,7 @@ const Checkout = () => {
       data.vendorUser = true;
     }
 
-    fetch("https://easymartbackend.vercel.app/orders", {
+    fetch("http://localhost:5000/orders", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -181,7 +181,7 @@ const Checkout = () => {
       discount: discount,
       invoice: 4000 + totalOrder?.length,
     };
-    fetch("https://easymartbackend.vercel.app/bkash-checkout", {
+    fetch("http://localhost:5000/bkash-checkout", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(details),
@@ -198,7 +198,7 @@ const Checkout = () => {
 
   const getCouponData = async () => {
     try {
-      const response = await fetch(`https://easymartbackend.vercel.app/coupon`);
+      const response = await fetch(`http://localhost:5000/coupon`);
       const data = await response.json();
       if (data) {
         setCoupon(data?.code);

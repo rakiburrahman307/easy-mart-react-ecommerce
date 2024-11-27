@@ -4,57 +4,76 @@ import React, { useEffect, useState } from "react";
 import { Button, Table } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
-import { Swal } from "sweetalert2/dist/sweetalert2";
 import useAuth from "../../../hooks/useAuth";
 import "./MakeAdmin.css";
+import Swal from "sweetalert2";
 
 const MakeAdmin = () => {
   document.title = "Admin";
-  const { getStarting, token, userList } = useAuth();
+  const { getStarting, token, userList, user } = useAuth();
   const { register, handleSubmit, reset } = useForm();
   const [adminList, setAdminList] = useState([]);
 
   const onSubmit = (data) => {
-    //     console.log(data);
-    //     fetch("https://easymartbackend.vercel.app/users/admin", {
-    //       method: "PUT",
-    //       headers: {
-    //         authorization: `Bearer ${token}`,
-    //         "content-type": "application/json",
-    //       },
-    //       body: JSON.stringify(data),
-    //     })
-    //       .then((res) => res.json())
-    //       .then((result) => {
-    //         console.log(result);
-    //         if (result.modifiedCount > 0) {
-    //           toast.success("Successfully added new admin", {
-    //             position: toast.POSITION.TOP_RIGHT,
-    //             autoClose: 5000,
-    //           });
-    //           fetch("https://easymartbackend.vercel.app/users")
-    //             .then((res) => res.json())
-    //             .then((result) => {
-    //               const adminUser = result?.filter(
-    //                 (data) => data?.role === "admin"
-    //               );
-    //               setAdminList(adminUser);
-    //             })
-    //             .catch((error) => {
-    //               console.log(error);
-    //             });
-    //         } else {
-    //           Swal.fire({
-    //             icon: "error",
-    //             title: "Oops...",
-    //             text: "Something went wrong!",
-    //           });
-    //         }
-    //         reset();
-    //       })
-    //       .catch((error) => {
-    //         console.log(error);
-    //       });
+    const dataObject = {
+      email: data?.email,
+      currentUser: user?.email,
+    };
+
+    fetch("http://localhost:5000/users/admin/makeAdmin", {
+      method: "PUT",
+      headers: {
+        authorization: `Bearer ${token}`,
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(dataObject),
+    })
+      .then((res) => res.json())
+      .then((result) => {
+        if (result?.modifiedCount > 0) {
+          // Successful admin creation
+          toast.success("Successfully added new admin", {
+            position: toast.POSITION.TOP_RIGHT,
+            autoClose: 5000,
+          });
+
+          // Refresh admin list
+          fetch("http://localhost:5000/users")
+            .then((res) => res.json())
+            .then((result) => {
+              const adminUser = result?.filter(
+                (data) => data?.role === "admin"
+              );
+              setAdminList(adminUser);
+            })
+            .catch((error) => {
+              console.log(error);
+            });
+        } else if (result?.matchedCount === 0) {
+          // User email not found
+          toast.success(`The email does not exist in the system.`, {
+            position: toast.POSITION.TOP_RIGHT,
+            autoClose: 5000,
+          });
+        } else {
+          // No modifications made, but email exists
+          toast.success(`The User is already an admin.`, {
+            position: toast.POSITION.TOP_RIGHT,
+            autoClose: 5000,
+          });
+        }
+
+        // Reset the form
+        reset();
+      })
+      .catch((error) => {
+        console.log(error);
+        Swal.fire({
+          icon: "error",
+          title: "Error",
+          text: "An error occurred while processing your request.",
+        });
+      });
   };
 
   useEffect(() => {
@@ -63,31 +82,40 @@ const MakeAdmin = () => {
   }, [userList]);
 
   const handleRemoveAdmin = (id) => {
-    // fetch(`https://easymartbackend.vercel.app/users/${id}`, {
-    //   method: "DELETE",
-    // })
-    // .then(res => res.json())
-    // .then(data =>{
-    //       if(data.deletedCount > 0){
-    //             Swal.fire({
-    //                 position: 'center',
-    //                 icon: 'success',
-    //                 title: 'Admin Remove Successfully',
-    //                 showConfirmButton: false,
-    //                 timer: 2000
-    //             })
-    //             const remaining = adminList?.filter(data => data._id !== id);
-    //             setAdminList(remaining)
-    //       }
-    //       else{
-    //             alert("Admin")
-    //       }
-    // })
-    // .catch((error) => {
-    //       console.log(error)
-    // });
-
-    alert("Function are coming soon");
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        fetch(`http://localhost:5000/removeAdmin/${id}`, {
+          method: "DELETE",
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            if (data.deletedCount > 0) {
+              Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Admin Remove Successfully",
+                showConfirmButton: false,
+                timer: 2000,
+              });
+              const remaining = adminList?.filter((data) => data._id !== id);
+              setAdminList(remaining);
+            } else {
+              alert("Admin");
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+      }
+    });
   };
 
   return (
@@ -153,6 +181,7 @@ const MakeAdmin = () => {
                   <td>
                     <Button
                       onClick={() => handleRemoveAdmin(admin?._id)}
+                      disabled={user?.email === admin?.email}
                       style={{
                         backgroundColor: getStarting?.primaryColor,
                         border: "none",

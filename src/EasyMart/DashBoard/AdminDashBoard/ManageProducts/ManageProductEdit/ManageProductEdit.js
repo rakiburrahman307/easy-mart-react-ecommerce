@@ -63,10 +63,10 @@ const ManageProductEdit = (props) => {
       editData = productsObject;
     }
 
-    // https://easymartbackend.vercel.app/users?search=tamal&&order=asc
+    // http://localhost:5000/users?search=tamal&&order=asc
     // const search = req.query.search;
     fetch(
-      `https://easymartbackend.vercel.app/product/edit/${data.cate_name}/${_id}`,
+      `http://localhost:5000/product/edit/${data.cate_name}/${_id}`,
       {
         method: "PUT",
         headers: { "content-type": "application/json" },
