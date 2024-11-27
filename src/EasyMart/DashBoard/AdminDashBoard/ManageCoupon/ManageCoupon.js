@@ -12,7 +12,7 @@ const ManageCoupon = () => {
   useEffect(() => {
     setLoading(true);
     // Fetch the single coupon document from the collection
-    fetch(`http://localhost:5000/coupon`)
+    fetch(`https://easymartbackend.vercel.app/coupon`)
       .then((res) => res.json())
       .then((data) => {
         if (data) {
@@ -33,7 +33,7 @@ const ManageCoupon = () => {
       isActive: data.isActive === "true",
     };
 
-    fetch(`http://localhost:5000/coupon/apply`, {
+    fetch(`https://easymartbackend.vercel.app/coupon/apply`, {
       method: "PUT", // Always updating since there's only one document
       headers: { "content-type": "application/json" },
       body: JSON.stringify(couponObject),

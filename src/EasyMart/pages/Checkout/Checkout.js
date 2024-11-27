@@ -35,6 +35,7 @@ const Checkout = () => {
   } = useAuth();
 
   const [couponValue, setCouponValue] = useState("");
+  const [coupon, setCoupon] = useState("");
   const [couponValid, setCouponValid] = useState(true);
   const [discountPercentage, setDiscountPercentage] = useState(null);
   const [couponApplied, setCouponApplied] = useState(false);
@@ -82,10 +83,11 @@ const Checkout = () => {
   }
 
   console.log(discountPercentage);
-  // let couponText = "afride" // 20% Off
+  let couponText = coupon;
   const handleCoupon = (couponValue, couponText, cartPrice) => {
     if (couponValue) {
       if (couponValue.toLowerCase() === couponText.toLowerCase()) {
+        console.log("value" + couponValue, "text" + couponText);
         const offer = (cartPrice * discountPercentage) / 100;
         console.log(offer);
         setDiscountPrice(cartPrice - offer);
@@ -135,7 +137,7 @@ const Checkout = () => {
       data.vendorUser = true;
     }
 
-    fetch("http://localhost:5000/orders", {
+    fetch("https://easymartbackend.vercel.app/orders", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -179,7 +181,7 @@ const Checkout = () => {
       discount: discount,
       invoice: 4000 + totalOrder?.length,
     };
-    fetch("http://localhost:5000/bkash-checkout", {
+    fetch("https://easymartbackend.vercel.app/bkash-checkout", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(details),
@@ -196,10 +198,10 @@ const Checkout = () => {
 
   const getCouponData = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/coupon`);
+      const response = await fetch(`https://easymartbackend.vercel.app/coupon`);
       const data = await response.json();
       if (data) {
-        setCouponValue(data?.code);
+        setCoupon(data?.code);
         setCouponValid(data?.isActive);
         setDiscountPercentage(data?.discountPercentage);
       }
@@ -272,7 +274,7 @@ const Checkout = () => {
                 cartPrice={cartPrice}
                 discount={discount}
                 newTotalPrice={newTotalPrice}
-                couponText={couponValue}
+                couponText={couponText}
                 couponValue={couponValue}
                 couponValid={couponValid}
                 couponApplied={couponApplied}
