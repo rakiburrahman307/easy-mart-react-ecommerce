@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import useAuth from '../../../hooks/useAuth';
 import './AddProducts.css';
+import getBaseUrl from '../../../hooks/getBaseUrl';
 
 const AddProducts = () => {
     document.title = 'Add Products';
@@ -52,7 +53,7 @@ const AddProducts = () => {
             addData = productsObject;
         }
 
-        fetch(`http://localhost:5000/product/add/${categoriesPd?.cate_name}`, {
+        fetch(`${getBaseUrl()}/product/add/${categoriesPd?.cate_name}`, {
             method: 'PUT',
             headers: { 'content-type': 'application/json'},
             body: JSON.stringify(addData)

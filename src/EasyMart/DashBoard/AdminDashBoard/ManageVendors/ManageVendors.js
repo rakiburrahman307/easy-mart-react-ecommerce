@@ -5,6 +5,7 @@ import { Button, Table } from 'react-bootstrap';
 import Swal from 'sweetalert2';
 import useAuth from '../../../hooks/useAuth';
 import './ManageVendors.css';
+import getBaseUrl from '../../../hooks/getBaseUrl';
 
 const ManageVendors = () => {
       const { getStarting, vendors, setVendors, handleAllVendors } = useAuth();
@@ -24,7 +25,7 @@ const ManageVendors = () => {
             confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
             if (result.isConfirmed) {
-                        const url = `http://localhost:5000/vendors/${id}`;
+                        const url = `${getBaseUrl()}/vendors/${id}`;
                         fetch(url, {
                         method: 'DELETE'
                         })

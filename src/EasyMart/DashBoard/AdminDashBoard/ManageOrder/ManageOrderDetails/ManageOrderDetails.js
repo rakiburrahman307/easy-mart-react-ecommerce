@@ -7,6 +7,7 @@ import Swal from 'sweetalert2';
 import useAuth from '../../../../hooks/useAuth';
 
 import './ManageOrderDetails.css';
+import getBaseUrl from '../../../../hooks/getBaseUrl';
 
 const ManageOrderDetails = () => {
     
@@ -63,7 +64,7 @@ const ManageOrderDetails = () => {
     const handleDeleteOrder = id => {
         // const proceed = window.confirm('Are you sure, you want to delete?')
         // if(proceed){
-        //     const url = `http://localhost:5000/orders/${id}`;
+            // const url = `${getBaseUrl()}/orders/${id}`;
         //     fetch(url, {
         //         method: 'DELETE'
         //     })
@@ -93,7 +94,7 @@ const ManageOrderDetails = () => {
             confirmButtonText: 'Yes, delete it!'
           }).then((result) => {
           if (result.isConfirmed) {
-                    const url = `http://localhost:5000/orders/${id}`;
+                    const url = `${getBaseUrl()}/orders/${id}`;
                     fetch(url, {
                         method: 'DELETE'
                     })

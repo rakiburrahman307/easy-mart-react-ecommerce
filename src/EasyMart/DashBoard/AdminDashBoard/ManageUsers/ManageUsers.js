@@ -5,6 +5,7 @@ import { Button, Table } from "react-bootstrap";
 import useAuth from "../../../hooks/useAuth";
 import "./ManageUsers.css";
 import Swal from "sweetalert2";
+import getBaseUrl from "../../../hooks/getBaseUrl";
 
 const ManageUsers = () => {
   document.title = "Admin";
@@ -21,7 +22,7 @@ const ManageUsers = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/users/${id}`, {
+        fetch(`${getBaseUrl()}/users/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

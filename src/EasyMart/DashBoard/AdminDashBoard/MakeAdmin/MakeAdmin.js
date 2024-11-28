@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import useAuth from "../../../hooks/useAuth";
 import "./MakeAdmin.css";
 import Swal from "sweetalert2";
+import getBaseUrl from "../../../hooks/getBaseUrl";
 
 const MakeAdmin = () => {
   document.title = "Admin";
@@ -20,7 +21,7 @@ const MakeAdmin = () => {
       currentUser: user?.email,
     };
 
-    fetch("http://localhost:5000/users/admin/makeAdmin", {
+    fetch(`${getBaseUrl()}/users/admin/makeAdmin`, {
       method: "PUT",
       headers: {
         authorization: `Bearer ${token}`,
@@ -38,7 +39,7 @@ const MakeAdmin = () => {
           });
 
           // Refresh admin list
-          fetch("http://localhost:5000/users")
+          fetch(`${getBaseUrl()}/users`)
             .then((res) => res.json())
             .then((result) => {
               const adminUser = result?.filter(
@@ -92,7 +93,7 @@ const MakeAdmin = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/removeAdmin/${id}`, {
+        fetch(`${getBaseUrl()}/removeAdmin/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

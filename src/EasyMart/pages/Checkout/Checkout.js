@@ -8,6 +8,7 @@ import useAuth from "../../hooks/useAuth";
 import "./Checkout.css";
 import CheckoutSummery from "./CheckoutSummery/CheckoutSummery";
 import PaymentMethod from "./PaymentMethod/PaymentMethod";
+import getBaseUrl from "../../hooks/getBaseUrl";
 
 const getFromLocalStorage = () => {
   const cartList = localStorage.getItem("shopping_cart");
@@ -137,7 +138,7 @@ const Checkout = () => {
       data.vendorUser = true;
     }
 
-    fetch("http://localhost:5000/orders", {
+    fetch(`${getBaseUrl()}/orders`, {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -181,7 +182,7 @@ const Checkout = () => {
       discount: discount,
       invoice: 4000 + totalOrder?.length,
     };
-    fetch("http://localhost:5000/bkash-checkout", {
+    fetch(`${getBaseUrl()}/bkash-checkout`, {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(details),
@@ -198,7 +199,7 @@ const Checkout = () => {
 
   const getCouponData = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/coupon`);
+      const response = await fetch(`${getBaseUrl()}/coupon`);
       const data = await response.json();
       if (data) {
         setCoupon(data?.code);

@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import Swal from 'sweetalert2';
 import useAuth from '../../../hooks/useAuth';
 import './ManageBrands.css';
+import getBaseUrl from '../../../hooks/getBaseUrl';
 
 const ManageBrands = () => {
     const { getStarting, brands, setBrands, handleAllBrands } = useAuth();
@@ -24,7 +25,7 @@ const ManageBrands = () => {
         "name": data?.name
      }
 
-        fetch('http://localhost:5000/brands', {
+        fetch(`${getBaseUrl()}/brands`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -42,7 +43,7 @@ const ManageBrands = () => {
 
 
 
-                  // fetch("http://localhost:5000/users")
+                //   fetch(`${getBaseUrl()}/users`)
                   // .then(res => res.json())
                   // .then(result => {
                   //       const adminUser = result?.filter(data => data?.role === 'admin');
@@ -79,7 +80,7 @@ const ManageBrands = () => {
           confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
         if (result.isConfirmed) {
-                  const url = `http://localhost:5000/brands/${id}`;
+                  const url = `${getBaseUrl()}/brands/${id}`;
                   fetch(url, {
                       method: 'DELETE'
                   })

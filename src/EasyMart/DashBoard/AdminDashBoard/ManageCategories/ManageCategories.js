@@ -7,6 +7,7 @@ import { toast } from 'react-toastify';
 import Swal from 'sweetalert2';
 import useAuth from '../../../hooks/useAuth';
 import './ManageCategories.css';
+import getBaseUrl from '../../../hooks/getBaseUrl';
 
 const ManageCategories = () => {
       const { getStarting, categories, setCategories } = useAuth();
@@ -28,7 +29,7 @@ const ManageCategories = () => {
                   "subCategories": []
             }
 
-            fetch('http://localhost:5000/categories', {
+            fetch(`${getBaseUrl()}/categories`, {
                   method: 'POST',
                   headers: {
                         'content-type': 'application/json'
@@ -63,7 +64,7 @@ const ManageCategories = () => {
                   confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
             if (result.isConfirmed) {
-                        const url = `http://localhost:5000/categories/${id}`;
+                        const url = `${getBaseUrl()}/categories/${id}`;
                         fetch(url, {
                         method: 'DELETE'
                         })

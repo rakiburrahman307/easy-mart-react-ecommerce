@@ -6,6 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import useAuth from '../../../../hooks/useAuth';
 import './MessageDetails.css';
+import getBaseUrl from '../../../../hooks/getBaseUrl';
 
 const MessageDetails = () => {
       const {messageId} = useParams();
@@ -30,7 +31,7 @@ const MessageDetails = () => {
                   confirmButtonText: 'Yes, delete it!'
             }).then((result) => {
             if (result.isConfirmed) {
-                        const url = `http://localhost:5000/message/${id}`;
+                        const url = `${getBaseUrl()}/message/${id}`;
                         fetch(url, {
                         method: 'DELETE'
                         })

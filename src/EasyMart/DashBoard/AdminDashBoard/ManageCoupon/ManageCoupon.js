@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import "./ManageCoupon.css";
 import useAuth from "../../../hooks/useAuth";
+import getBaseUrl from "../../../hooks/getBaseUrl";
 
 const ManageCoupon = () => {
   const { register, handleSubmit, reset, setValue } = useForm();
@@ -12,7 +13,7 @@ const ManageCoupon = () => {
   useEffect(() => {
     setLoading(true);
     // Fetch the single coupon document from the collection
-    fetch(`http://localhost:5000/coupon`)
+    fetch(`${getBaseUrl()}/coupon`)
       .then((res) => res.json())
       .then((data) => {
         if (data) {
@@ -33,7 +34,7 @@ const ManageCoupon = () => {
       isActive: data.isActive === "true",
     };
 
-    fetch(`http://localhost:5000/coupon/apply`, {
+    fetch(`${getBaseUrl()}/coupon/apply`, {
       method: "PUT", // Always updating since there's only one document
       headers: { "content-type": "application/json" },
       body: JSON.stringify(couponObject),

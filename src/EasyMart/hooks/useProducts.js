@@ -17,6 +17,7 @@ import {
 import { toast } from "react-toastify";
 import Swal from "sweetalert2";
 import initializeAuthentication from "../pages/Login/Firebase/firebase.init";
+import getBaseUrl from "./getBaseUrl";
 
 initializeAuthentication();
 
@@ -73,7 +74,7 @@ const useProducts = () => {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch(`${getBaseUrl()}/products`)
       .then((res) => res.json())
       .then((data) => {
         setCategoriesProducts(data);
@@ -103,7 +104,7 @@ const useProducts = () => {
   }, [products]);
 
   const handleAllCategory = () => {
-    fetch("http://localhost:5000/categories")
+    fetch(`${getBaseUrl()}/categories`)
       .then((res) => res.json())
       .then((data) => {
         setCategories(data);
@@ -123,7 +124,8 @@ const useProducts = () => {
   };
 
   const handleAllBrands = () => {
-    fetch("http://localhost:5000/brands")
+    
+    fetch(`${getBaseUrl()}/brands`)
       .then((res) => res.json())
       .then((data) => {
         setBrands(data);
@@ -143,7 +145,7 @@ const useProducts = () => {
   };
 
   const handleAllVendors = () => {
-    fetch("http://localhost:5000/vendors")
+    fetch(`${getBaseUrl()}/vendors`)
       .then((res) => res.json())
       .then((data) => {
         setVendors(data);
@@ -448,7 +450,7 @@ const useProducts = () => {
   };
 
   const handleProductOrders = () => {
-    fetch("http://localhost:5000/orders")
+    fetch(`${getBaseUrl()}/orders`)
       .then((res) => res.json())
       .then((result) => {
         setTotalOrder(result);
@@ -464,7 +466,7 @@ const useProducts = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/message")
+    fetch(`${getBaseUrl()}/message`)
       .then((res) => res.json())
       .then((data) => setMessages(data))
       .catch((error) => {
@@ -583,7 +585,7 @@ const useProducts = () => {
   }, [auth]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/users/${user.email}`)
+    fetch(`${getBaseUrl()}/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => {
         setAdmin(data.admin);
@@ -607,7 +609,7 @@ const useProducts = () => {
 
   const saveUser = (email, displayName, phoneNumber, method) => {
     const user = { email, displayName, phoneNumber };
-    fetch("http://localhost:5000/users", {
+    fetch(`${getBaseUrl()}/users`, {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -622,7 +624,7 @@ const useProducts = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch(`${getBaseUrl()}/users`)
       .then((res) => res.json())
       .then((result) => {
         setUserList(result);

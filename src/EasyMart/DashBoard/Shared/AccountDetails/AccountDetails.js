@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import useAuth from "../../../hooks/useAuth";
 import "./AccountDetails.css";
+import getBaseUrl from "../../../hooks/getBaseUrl";
 
 const Checkout = () => {
   const { getStarting, user, admin, vendorUser } = useAuth();
@@ -14,7 +15,7 @@ const Checkout = () => {
   const [ifVendor, setIfVendor] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch(`${getBaseUrl()}/users`)
       .then((res) => res.json())
       .then((data) => {
         const updateUser = data?.find((result) => result.email === user.email);
@@ -48,7 +49,7 @@ const Checkout = () => {
       userData = data;
     }
 
-    fetch(`http://localhost:5000/users/${data?._id}`, {
+    fetch(`${getBaseUrl()}/users/${data?._id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -68,7 +69,7 @@ const Checkout = () => {
           setUserInfo(userData);
         }
 
-        fetch("http://localhost:5000/vendors", {
+        fetch(`${getBaseUrl()}/vendors`, {
           method: "POST",
           body: formData,
         })

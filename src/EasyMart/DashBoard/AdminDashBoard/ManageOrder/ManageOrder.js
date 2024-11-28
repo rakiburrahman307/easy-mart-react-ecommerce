@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import useAuth from "../../../hooks/useAuth";
 import "./ManageOrder.css";
+import getBaseUrl from "../../../hooks/getBaseUrl";
 
 const ManageOrder = () => {
   const {
@@ -41,7 +42,7 @@ const ManageOrder = () => {
 
   const handleUpdateStatus = (id, status) => {
     const updateStatus = parseInt(status);
-    const url = `http://localhost:5000/orders/${id}`;
+    const url = `${getBaseUrl()}/orders/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

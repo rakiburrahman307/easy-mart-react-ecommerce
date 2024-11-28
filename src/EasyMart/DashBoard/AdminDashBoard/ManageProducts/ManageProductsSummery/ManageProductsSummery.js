@@ -5,6 +5,7 @@ import ImageLoader from '../../../../Shared/ImageLoader/ImageLoader';
 import useAuth from '../../../../hooks/useAuth';
 import ManageProductEdit from '../ManageProductEdit/ManageProductEdit';
 import './ManageProductsSummery.css';
+import getBaseUrl from '../../../../hooks/getBaseUrl';
 
 const ManageProductsSummery = (props) => {
     const {thumbnail, name, slug, product_code, sell_price, discount, cate_name, _id} = props.product;
@@ -31,7 +32,7 @@ const ManageProductsSummery = (props) => {
             confirmButtonText: 'Yes, delete it!'
           }).then((result) => {
           if (result.isConfirmed) {
-                    const url = `http://localhost:5000/product/delete/${cateName}/${id}`;
+                    const url = `${getBaseUrl()}/product/delete/${cateName}/${id}`;
                     fetch(url, {
                         method: 'PUT'
                     })

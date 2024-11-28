@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import useAuth from "../../../../hooks/useAuth";
 import "./ManageProductEdit.css";
+import getBaseUrl from "../../../../hooks/getBaseUrl";
 
 const ManageProductEdit = (props) => {
   const {
@@ -63,10 +64,10 @@ const ManageProductEdit = (props) => {
       editData = productsObject;
     }
 
-    // http://localhost:5000/users?search=tamal&&order=asc
+    // https://localhost:5000/users?search=tamal&&order=asc
     // const search = req.query.search;
     fetch(
-      `http://localhost:5000/product/edit/${data.cate_name}/${_id}`,
+      `${getBaseUrl()}/product/edit/${data.cate_name}/${_id}`,
       {
         method: "PUT",
         headers: { "content-type": "application/json" },
