@@ -312,9 +312,7 @@ const ProductsDetailsSummery = (props) => {
             {/* Display Available Stock */}
             <div className='product-summery-info'>
               <strong className='me-2'>Stock: </strong>
-              <span style={{ color: getStarting?.primaryColor }}>
-              {stock}
-              </span>
+              <span style={{ color: getStarting?.primaryColor }}>{stock}</span>
             </div>
 
             {/* {
@@ -439,7 +437,10 @@ const ProductsDetailsSummery = (props) => {
             >
               ADD TO CART
             </Button>
-            <Link to='/checkout'>
+            <Link
+              to={stock === 0 ? "#" : "/checkout"}
+              onClick={(e) => stock === 0 && e.preventDefault()}
+            >
               <Button
                 onClick={() => handleAddToCart(props.product, productColorId)}
                 disabled={stock === 0}
